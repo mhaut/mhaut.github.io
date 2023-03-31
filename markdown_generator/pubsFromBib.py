@@ -119,11 +119,11 @@ for pubsource in publist:
 
             md += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + html_filename
             
-            note = False
-            if "note" in b.keys():
-                if len(str(b["note"])) > 5:
-                    md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
-                    note = True
+            # note = False
+            # if "note" in b.keys():
+            #     if len(str(b["note"])) > 5:
+            #         md += "\nexcerpt: '" + html_escape(b["note"]) + "'"
+            #         note = True
 
             md += "\ndate: " + str(pub_date) 
 
@@ -132,7 +132,7 @@ for pubsource in publist:
             url = False
             if "url" in b.keys():
                 if len(str(b["url"])) > 5:
-                    md += "\npaperurl: '" + b["url"] + "'"
+                    md += "\nlink: '" + b["url"] + "'"
                     url = True
 
             md += "\ncitation: '" + html_escape(citation) + "'"
