@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Juan M Haut"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Associate Professor"
   location         : "Spain"
   employer         : "University of Extremadura"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   googlescholar    : "https://scholar.google.es/citations?user=zLffeY8AAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -93,7 +93,7 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           :
+  flickr            :
   facebook         :
   foursquare       :
   github           : "https://github.com/mhaut"
@@ -106,7 +106,7 @@ author:
   orcid            : "http://orcid.org/0000-0001-6701-961X"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow     : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          : #"replacethistwitterhandle"
