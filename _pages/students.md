@@ -1,6 +1,6 @@
 ---
 permalink: /students/
-title: "Students"
+title: "Final Degrees"
 ---
 
 
