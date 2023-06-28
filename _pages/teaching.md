@@ -1,19 +1,18 @@
 ---
 permalink: /teaching/
-title: "Teaching"
+title: "Teaching Activity"
 ---
 
 
 
-# Teaching Activity
-## University of Extremadura.
-### 2023/2024
+# University of Extremadura.
+## 2023/2024
 - Bachelor's Degree in Computer Engineering with a specialization in Computer Engineering
     - Multimedia Systems, 4th year.
     - Specialized Architectures, 4th year.
     - Operating System Design, 3rd year.
 
-### 2022/2023
+## 2022/2023
 - Master's Degree in Computer Engineering
     - Computer Graphics, 1st year.
 - Bachelor's Degree in Computer Engineering with a specialization in Computer Engineering
@@ -24,7 +23,7 @@ title: "Teaching"
 - Bachelor's Degree in Computer Engineering with a specialization in Software Engineering
     - Introduction to Computers, 1st year.
 
-## University of Extremadura. 2021/2022
+## 2021/2022
 - Master's Degree in Computer Engineering
     - Computer Graphics, 3 ECTS credits.
 - Bachelor's Degree in Computer Engineering with a specialization in Computer Engineering
@@ -34,7 +33,8 @@ title: "Teaching"
 - Bachelor's Degree in Computer Engineering with a specialization in Software Engineering
     - Computer Technology, 1st year.
 
-## National University of Distance Education. 2020/2021
+# National University of Distance Education.
+## 2020/2021
 - Master's Degree in Engineering and Data Science
     - Management and Storage of Unstructured Information, 2.76 ECTS credits.
 - Bachelor's Degree in Computer Engineering
@@ -42,7 +42,8 @@ title: "Teaching"
 - Bachelor's Degree in Computer Engineering with a specialization in Information Technology
     - Final Degree Project, 0.231 ECTS credits.
 
-## University of Extremadura. 2019/2020
+# University of Extremadura.
+## 2019/2020
 - Bachelor's Degree in Computer Engineering with a specialization in Computer Engineering
     - Computer Technology, 1st year.
 - Bachelor's Degree in Computer Engineering with a specialization in Software Engineering
