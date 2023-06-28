@@ -5,22 +5,22 @@ title: "Students"
 
 
 ## Currently:
-1. PhD. Expected 2025. Zhaoyue Wu. Change Detection in Remote Sensing: New Techniques and Applications. University of Extremadura.
-2. BsC. Expected 2023. Juan Salvador. Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem. University of Extremadura.
+5. PhD. Expected 2025. Zhaoyue Wu. Change Detection in Remote Sensing: New Techniques and Applications. University of Extremadura.
+4. BsC. Expected 2023. Juan Salvador. Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem. University of Extremadura.
 3. BsC. Expected 2023. José Díaz. Neighbor2Neighbor+: Self-Supervised Denoising from Noisy Single Images using Transformers. University of Extremadura.
-4. BsC. Expected 2023. Luis Munuera. Development of an Application for Intelligent High-Yield Investment Search. University of Extremadura.
-5. BsC. Expected 2023. José Luis García. Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution. University of Extremadura.
+2. BsC. Expected 2023. Luis Munuera. Development of an Application for Intelligent High-Yield Investment Search. University of Extremadura.
+1. BsC. Expected 2023. José Luis García. Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution. University of Extremadura.
 
 
 ## PhD Students
-1. 2023\. Xuanwen Tao. Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks. University of Extremadura. Grade: .
-2. 2022\. Sergio Moreno-Álvarez. Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments. University of Extremadura. Grade: Cum Laude.
+2. 2023\. Xuanwen Tao. Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks. University of Extremadura. Grade: .
+1. 2022\. Sergio Moreno-Álvarez. Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments. University of Extremadura. Grade: Cum Laude.
 
 
 ## Msc Students
-1. 2022\. Mercedes Paoletti. Hyperspectral Image Classification with Self-Supervised Capsule Networks. University of Extremadura. Grade: With honours.
+3. 2022\. Mercedes Paoletti. Hyperspectral Image Classification with Self-Supervised Capsule Networks. University of Extremadura. Grade: With honours.
 2. 2022\. Andrés Abelardo. Optimization of Convolutional Neural Networks for Hyperspectral Image Classification. National University of Distance Education. Grade: Very Good.
-3. 2022\. Marcos Minaya. Laser-Engraved Code Recognition using Deep Learning Techniques. National University of Distance Education. Grade: Excellent.
+1. 2022\. Marcos Minaya. Laser-Engraved Code Recognition using Deep Learning Techniques. National University of Distance Education. Grade: Excellent.
 
 
 ## Bsc Students
