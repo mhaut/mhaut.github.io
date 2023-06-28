@@ -5,11 +5,11 @@ title: "Students"
 
 
 ## Currently:
-- PhD. Expected 2025. Zhaoyue Wu. Change Detection in Remote Sensing: New Techniques and Applications. University of Extremadura.
-- BsC. Expected 2023. Juan Salvador. Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem. University of Extremadura.
-- BsC. Expected 2023. José Díaz. Neighbor2Neighbor+: Self-Supervised Denoising from Noisy Single Images using Transformers. University of Extremadura.
-- BsC. Expected 2023. Luis Munuera. Development of an Application for Intelligent High-Yield Investment Search. University of Extremadura.
-- BsC. Expected 2023. José Luis García. Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution. University of Extremadura.
+1. PhD. Expected 2025. Zhaoyue Wu. Change Detection in Remote Sensing: New Techniques and Applications. University of Extremadura.
+2. BsC. Expected 2023. Juan Salvador. Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem. University of Extremadura.
+3. BsC. Expected 2023. José Díaz. Neighbor2Neighbor+: Self-Supervised Denoising from Noisy Single Images using Transformers. University of Extremadura.
+4. BsC. Expected 2023. Luis Munuera. Development of an Application for Intelligent High-Yield Investment Search. University of Extremadura.
+5. BsC. Expected 2023. José Luis García. Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution. University of Extremadura.
 
 
 ## PhD Students
