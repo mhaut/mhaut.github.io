@@ -13,8 +13,8 @@ title: "Students"
 
 
 ## PhD Students
-2. 2023\. Xuanwen Tao. Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks. University of Extremadura. Grade: .
-1. 2022\. Sergio Moreno-Álvarez. Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments. University of Extremadura. Grade: Cum Laude.
+1. 2023\. Xuanwen Tao. Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks. University of Extremadura. Grade: .
+2. 2022\. Sergio Moreno-Álvarez. Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments. University of Extremadura. Grade: Cum Laude.
 
 
 ## Msc Students
