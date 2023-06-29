@@ -1,3 +1,11 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+
 <ol reversed>
     <li>Paoletti, M.E. and Mogollon, O. and Moreno, S. and Sancho, J.C. and Haut, J.M.** A Comprehensive Survey of Imbalance Correction Techniques for Hyperspectral Data Classification. **IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2023.
 </li>
