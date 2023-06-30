@@ -4,6 +4,19 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
+
+
+
+
+<style>
+  ol {
+    text-align: justify;
+  }
+  li {
+    text-align: justify;
+  }
+</style>
 ## Journal papers (59)
 
 <ol reversed>
