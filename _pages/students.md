@@ -4,18 +4,16 @@ title: "Final Degrees"
 ---
 
 
-## Currently (5):
+## Currently (4):
 <ol reversed>
+    <li> PhD. Expected 2023. Xuanwen Tao. Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks. University of Extremadura.</li>
     <li> PhD. Expected 2025. Zhaoyue Wu. Change Detection in Remote Sensing: New Techniques and Applications. University of Extremadura.</li>
     <li> BsC. Expected 2023. Juan Salvador. Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem. University of Extremadura.</li>
-    <li> BsC. Expected 2023. José Díaz. Neighbor2Neighbor+: Self-Supervised Denoising from Noisy Single Images using Transformers. University of Extremadura.</li>
-    <li> BsC. Expected 2023. Luis Munuera. Development of an Application for Intelligent High-Yield Investment Search. University of Extremadura.</li>
     <li> BsC. Expected 2023. José Luis García. Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution. University of Extremadura.</li>
 </ol>
 
 ## PhD Students (2)
 <ol reversed>
-    <li> 2023. Xuanwen Tao. Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks. University of Extremadura. Grade: .</li>
     <li> 2022. Sergio Moreno-Álvarez. Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments. University of Extremadura. Grade: Cum Laude.</li>
 </ol>
 
@@ -26,8 +24,10 @@ title: "Final Degrees"
     <li> 2022. Marcos Minaya. Laser-Engraved Code Recognition using Deep Learning Techniques. National University of Distance Education. Grade: Excellent.</li>
 </ol>
 
-## Bsc Students (14)
+## Bsc Students (16)
 <ol reversed>
+    <li> 2023. José Díaz. Neighbor2Neighbor+: Self-Supervised Denoising from Noisy Single Images using Transformers. University of Extremadura. Grade: Excellent (With honours).</li>
+    <li> 2023. Luis Munuera. Development of an Application for Intelligent High-Yield Investment Search. University of Extremadura. Grade: Excellent (With honours).</li>
     <li> 2023. Alejandro Camello. Imitation of Human Behavior in Chess Extensible to Perfect Information Strategy Games using Deep Learning. Grade: With honours.</li>
     <li> 2023. Irene Melchor. Hyperspectral Processing on Roman Figures. University of Extremadura. Grade: Excellent.</li>
     <li> 2023. José Javier Moreno. Evaluation of RAPL and NVML for Energy Profiling of Deep Learning. University of Extremadura. Grade: Excellent.</li>
