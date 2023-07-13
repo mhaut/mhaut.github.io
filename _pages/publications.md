@@ -17,11 +17,25 @@ author_profile: true
     text-align: justify;
   }
 </style>
-## Journal papers (59)
+## Journal papers (62)
 
 <ol reversed>
+
     <li>
-M.E. Paoletti, O. Mogollon, S. Moreno, J.C. Sancho and <u>J.M. Haut</u>. <b>A Comprehensive Survey of Imbalance Correction Techniques for Hyperspectral Data Classification.</b> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2023 <a href="https://doi.org/10.1109/JSTARS.2023.3279506" target="_blank">(link)</a>.
+<u>J.M. Haut</u>, S. Moreno-Álvarez, E. Moreno-Avila, V.A. Ayma, R. Pastor-Vargas, M.E. Paoletti. <b>Cloud Implementation of Extreme Learning Machine for Hyperspectral Image Classification.</b> IEEE Geoscience and Remote Sensing Letters, 2023 <a href="https://doi.org/" target="_blank">(link not avaiable)</a>.
+
+    </li>
+
+    <li>
+M.E. Paoletti, X. Tao, L. Han, Z. Wu, S. Moreno-Alvarez, S.K. Roy, A. Plaza, <u>J.M. Haut</u>. <b>Parameter-Free Attention Network for Spectral-Spatial Hyperspectral Image Classification.</b> IEEE Transactions on Geoscience and Remote Sensing, 2023 <a href="https://doi.org/" target="_blank">(link not avaiable)</a>.
+
+    </li>
+    <li>
+Á. Pérez-García, M.E. Paoletti, <u>J.M. Haut</u>, J.F. López. <b>Novel Spectral Loss Function for Unsupervised Hyperspectral Image Segmentation.</b> IEEE Geoscience and Remote Sensing Letters, 2023 <a href="https://doi.org/10.1109/LGRS.2023.3288809" target="_blank">(link)</a>.
+
+    </li>
+    <li>
+M.E. Paoletti, O. Mogollon, S. Moreno-Álvarez, J.C. Sancho and <u>J.M. Haut</u>. <b>A Comprehensive Survey of Imbalance Correction Techniques for Hyperspectral Data Classification.</b> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2023 <a href="https://doi.org/10.1109/JSTARS.2023.3279506" target="_blank">(link)</a>.
 
     </li>
     <li>
