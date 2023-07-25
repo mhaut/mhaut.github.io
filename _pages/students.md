@@ -12,21 +12,21 @@ title: "Final Degrees"
   }
 </style>
 
-## Currently (4):
+## Currently (2):
 <ol reversed>
-    <li> PhD. Expected 2023. Xuanwen Tao. <b>Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks.</b> University of Extremadura.</li>
     <li> PhD. Expected 2025. Zhaoyue Wu. <b>Change Detection in Remote Sensing: New Techniques and Applications.</b> University of Extremadura.</li>
-    <li> BsC. Expected 2023. Juan Salvador. <b>Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem.</b> University of Extremadura.</li>
     <li> BsC. Expected 2023. José Luis García. <b>Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution.</b> University of Extremadura.</li>
 </ol>
 
-## PhD Students (1)
+## PhD Students (2)
 <ol reversed>
-    <li> 2022. Sergio Moreno-Álvarez. <b>Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments.</b> University of Extremadura. Grade: Cum Laude.</li>
+  <li> 2023. Xuanwen Tao. <b>Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks.</b> University of Extremadura. Grade: Cum Laude.</li>
+  <li> 2022. Sergio Moreno-Álvarez. <b>Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments.</b> University of Extremadura. Grade: Cum Laude.</li>
 </ol>
 
-## Msc Students (3)
+## Msc Students (4)
 <ol reversed>
+    <li> 2023. Juan Salvador. <b>Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem.</b> University of Extremadura.</li>
     <li> 2022. Mercedes Paoletti. <b>Hyperspectral Image Classification with Self-Supervised Capsule Networks.</b> University of Extremadura. Grade: With honours.</li>
     <li> 2022. Andrés Abelardo. <b>Optimization of Convolutional Neural Networks for Hyperspectral Image Classification.</b> National University of Distance Education. Grade: Very Good.</li>
     <li> 2022. Marcos Minaya. <b>Laser-Engraved Code Recognition using Deep Learning Techniques.</b> National University of Distance Education. Grade: Excellent.</li>
@@ -34,10 +34,10 @@ title: "Final Degrees"
 
 ## Bsc Students (16)
 <ol reversed>
-    <li> 2023. José Díaz. <b>Neighbor2Neighbor+: Self-Supervised Denoising from Noisy Single Images using Transformers.</b> University of Extremadura. Grade: Excellent (With honours).</li>
-    <li> 2023. Luis Munuera. <b>Development of an Application for Intelligent High-Yield Investment Search.</b> University of Extremadura.</b> University of Extremadura. Grade: Excellent (With honours).</li>
+    <li> 2023. José Díaz. <b>Neighbor2Neighbor+: Self-Supervised Denoising from Noisy Single Images using Transformers.</b> University of Extremadura. Grade: With honours.</li>
+    <li> 2023. Luis Munuera. <b>Development of an Application for Intelligent High-Yield Investment Search.</b> University of Extremadura. Grade: Excellent.</li>
     <li> 2023. Alejandro Camello. <b>Imitation of Human Behavior in Chess Extensible to Perfect Information Strategy Games using Deep Learning.</b> University of Extremadura. Grade: With honours.</li>
-    <li> 2023. Irene Melchor. <b>Hyperspectral Processing on Roman Figures.</b> University of Extremadura.</b> University of Extremadura. Grade: Excellent.</li>
+    <li> 2023. Irene Melchor. <b>Hyperspectral Processing on Roman Figures.</b> University of Extremadura. Grade: Excellent.</li>
     <li> 2023. José Javier Moreno. <b>Evaluation of RAPL and NVML for Energy Profiling of Deep Learning.</b> University of Extremadura. Grade: Excellent.</li>
     <li> 2022. José Ignacio Duque. <b>QsphericalStats: A QGIS Plugin for Spherical Data Analysis.</b> University of Extremadura. Grade: Excellent.</li>
     <li> 2022. Carlos Cañada. <b>Evaluation of Deep Learning Techniques for Financial Asset Analysis and Prediction.</b> University of Extremadura. Grade: Excellent.</li>
