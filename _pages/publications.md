@@ -274,9 +274,13 @@ Fern, R. ez-Beltran, <u>J.M. Haut</u>, M.E. Paoletti, J. Plaza, A. Plaza and F. 
 
 
 
-## International conference papers (22)
+## International conference papers (23)
 
 <ol reversed>
+    <li>
+C. Anton-Munarriz, R. Pastor-Vargas, <u>J.M. Haut</u>, A. Robles-Gomez, M.E. Paoletti and J.A. Benitez-Andrades. <b>Detection of cerebral ischaemia using transfer learning techniques.</b> Proceedings - IEEE Symposium on Computer-Based Medical Systems, vol. 2023-June, 2023 <a href="https://doi.org/10.1109/CBMS58004.2023.00112" target="_blank">(link)</a>.
+
+    </li>
     <li>
 A. Cuartero, M.E. Paoletti, P. Garcia-Rodriguez and <u>J.M. Haut</u>. <b>PyCircularStats: A Python-Based Tool for Remote Sensing Circular Statistics and Graphical Analysis.</b> International Geoscience and Remote Sensing Symposium (IGARSS), vol. 2022-July, 2022 <a href="https://doi.org/10.1109/IGARSS46834.2022.9884758" target="_blank">(link)</a>.
 
