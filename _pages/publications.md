@@ -20,12 +20,14 @@ author_profile: true
 ## Journal papers (62)
 
 <ol reversed>
-
+    <li>
+S. Moreno-Álvarez, M.E. Paoletti, G. Cavallaro and <u>J.M. Haut</u>. <b>Enhancing Distributed Neural Network Training through Node-Based Communications.</b> IEEE Transactions on Neural Networks and Learning Systems, 2023 <a href="https://doi.org/" target="_blank">(link not avaiable)</a>.
+      
+    </li>
     <li>
 <u>J.M. Haut</u>, S. Moreno-Álvarez, E. Moreno-Avila, V.A. Ayma, R. Pastor-Vargas, M.E. Paoletti. <b>Cloud Implementation of Extreme Learning Machine for Hyperspectral Image Classification.</b> IEEE Geoscience and Remote Sensing Letters, 2023 <a href="https://doi.org/10.1109/LGRS.2023.3295742" target="_blank">(link)</a>.
 
     </li>
-
     <li>
 M.E. Paoletti, X. Tao, L. Han, Z. Wu, S. Moreno-Alvarez, S.K. Roy, A. Plaza, <u>J.M. Haut</u>. <b>Parameter-Free Attention Network for Spectral-Spatial Hyperspectral Image Classification.</b> IEEE Transactions on Geoscience and Remote Sensing, 2023 <a href="https://doi.org/10.1109/TGRS.2023.3295097" target="_blank">(link)</a>.
 
