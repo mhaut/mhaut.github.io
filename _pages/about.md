@@ -24,7 +24,7 @@ p {
 </style>
 
 <p>
-Dr. Haut's research interests include remote sensing data processing and high-dimensional data analysis, where he applies machine (deep) learning and cloud computing approaches. He has authored or co-authored over 50 JCR journal articles (more than 30 in IEEE journals) and more than 30 peer-reviewed conference proceeding papers. Some of his publications have been recognized as hot-topic publications for their impact on the scientific community. He was also awarded the Outstanding Paper Award in the 2019 and 2021 IEEE WHISPERS conferences.
+Dr. Haut's research interests include remote sensing data processing and high-dimensional data analysis, where he applies machine (deep) learning and cloud computing approaches. He has authored or co-authored over 70 JCR journal articles (more than 30 in IEEE journals) and more than 30 peer-reviewed conference proceeding papers. Some of his publications have been recognized as hot-topic publications for their impact on the scientific community. He was also awarded the Outstanding Paper Award in the 2019 and 2021 IEEE WHISPERS conferences.
 </p>
 <style>
 p {
