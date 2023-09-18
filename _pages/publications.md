@@ -17,13 +17,19 @@ author_profile: true
     text-align: justify;
   }
 </style>
-## Journal papers (63)
+## Journal papers (64)
 
 <ol reversed>
     <li>
 S. Moreno-Álvarez, M.E. Paoletti, G. Cavallaro and <u>J.M. Haut</u>. <b>Enhancing Distributed Neural Network Training through Node-Based Communications.</b> IEEE Transactions on Neural Networks and Learning Systems, 2023 <a href="https://doi.org/" target="_blank">(link not avaiable)</a>.
       
     </li>
+    
+    <li>
+B. Fang, G. Chen, R. Kou, M.E. Paoletti, <u>J.M. Haut</u> and A. Plaza. <b>CIT: Content-invariant translation with hybrid attention mechanism for unsupervised change detection.</b> ISPRS Journal of Photogrammetry and Remote Sensing, 2023 <a href="https://doi.org/" target="_blank">(link not avaiable)</a>.
+      
+    </li>
+
     <li>
 <u>J.M. Haut</u>, S. Moreno-Álvarez, E. Moreno-Avila, V.A. Ayma, R. Pastor-Vargas, M.E. Paoletti. <b>Cloud Implementation of Extreme Learning Machine for Hyperspectral Image Classification.</b> IEEE Geoscience and Remote Sensing Letters, 2023 <a href="https://doi.org/10.1109/LGRS.2023.3295742" target="_blank">(link)</a>.
 
