@@ -21,12 +21,12 @@ author_profile: true
 
 <ol reversed>
     <li>
-S. Moreno-Álvarez, M.E. Paoletti, G. Cavallaro and <u>J.M. Haut</u>. <b>Enhancing Distributed Neural Network Training through Node-Based Communications.</b> IEEE Transactions on Neural Networks and Learning Systems, 2023 <a href="https://doi.org/10.1109/TNNLS.2023.3309735" target="_blank">(link not avaiable)</a>.
+S. Moreno-Álvarez, M.E. Paoletti, G. Cavallaro and <u>J.M. Haut</u>. <b>Enhancing Distributed Neural Network Training through Node-Based Communications.</b> IEEE Transactions on Neural Networks and Learning Systems, 2023 <a href="https://doi.org/10.1109/TNNLS.2023.3309735" target="_blank">(link)</a>.
       
     </li>
     
     <li>
-B. Fang, G. Chen, R. Kou, M.E. Paoletti, <u>J.M. Haut</u> and A. Plaza. <b>CIT: Content-invariant translation with hybrid attention mechanism for unsupervised change detection.</b> ISPRS Journal of Photogrammetry and Remote Sensing, 2023 <a href="https://doi.org/10.1016/j.isprsjprs.2023.09.012" target="_blank">(link not avaiable)</a>.
+B. Fang, G. Chen, R. Kou, M.E. Paoletti, <u>J.M. Haut</u> and A. Plaza. <b>CIT: Content-invariant translation with hybrid attention mechanism for unsupervised change detection.</b> ISPRS Journal of Photogrammetry and Remote Sensing, 2023 <a href="https://doi.org/10.1016/j.isprsjprs.2023.09.012" target="_blank">(link)</a>.
       
     </li>
 
