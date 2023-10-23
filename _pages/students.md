@@ -12,17 +12,30 @@ title: "Final Degrees"
   }
 </style>
 
-## Currently (2):
+## Currently (6):
 <ol reversed>
     <li> PhD. Expected 2025. Zhaoyue Wu. <b>Change Detection in Remote Sensing: New Techniques and Applications.</b> University of Extremadura.</li>
+    <li> joint PhD. Expected 2026. Pan Zheng. <b>Hypergraph Generative Network based Hyperspectral Unmixing.</b> Northeast Forestry China.</li>
+    <li> joint PhD. Expected 2025. Hailian Lu. <b> Key Technologies for Spectral Remote Sensing Fusion and Application.</b> Northeast Forestry China.</li>
+    <li> joint PhD. Expected 2025. Youran Ge. <b>Development of new computational imaging methods: improvement and application of new automatic signal processing algorithms.</b> Beijing Jiaotong University.</li>
     <li> BsC. Expected 2023. José Luis García. <b>Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution.</b> University of Extremadura.</li>
+    <li> BsC. Expected 2024. Miguel Medina Cantos. <b>Householder Matrix for Convolutional Networks.</b> University of Extremadura.</li>
 </ol>
+
 
 ## PhD Students (2)
 <ol reversed>
-  <li> 2023. Xuanwen Tao. <b>Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks.</b> University of Extremadura. Grade: Cum Laude.</li>
+  <li> 2023. Xuanwen Tao. <b>Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks.</b> University of Extremadura. Grade: Cum Laude (Outstanding Doctoral Award).</li>
   <li> 2022. Sergio Moreno-Álvarez. <b>Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments.</b> University of Extremadura. Grade: Cum Laude.</li>
 </ol>
+
+<!--
+## joint PhD Students (2)
+<ol reversed>
+  <li> 2023. Xuanwen Tao. <b>Efficient and Deep Processing of Hyperspectral Images and its Application in Spectral Unmixing Tasks.</b> University of Extremadura. Grade: Cum Laude (Outstanding Doctoral Award).</li>
+  <li> 2022. Sergio Moreno-Álvarez. <b>Optimization of Scientific and Machine Learning Applications in Heterogeneous High-Performance Environments.</b> University of Extremadura. Grade: Cum Laude.</li>
+</ol>
+-->
 
 ## Msc Students (4)
 <ol reversed>

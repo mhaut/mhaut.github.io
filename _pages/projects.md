@@ -13,8 +13,9 @@ title: "Research Projects"
 </style>
 
 
-## Research Projects (10):
+## Research Projects (11):
 <ol reversed>
+  <li> International. 2023-2026. Juan M. Haut. <b>Early warning networks for climate change-related risk teledetection by Earth observation satellites for civil protection response.</b> European Union. 5.077.851,96 €.</li>
   <li> National. 2022-2024. P. Núñez. <b>Cognitive self-adaptable architectures for assistive robotic technological ecosystems.</b> Ministry of Science and Innovation. 195730.00 €.</li>
   <li> Regional. 2022-2023. Juan M. Haut. <b>Hyperspectral image analysis for monitoring hydraulic infrastructures.</b> Junta of Extremadura. 40677.14 €.</li>
   <li> Regional. 2022-2022. Juan M. Haut. <b>Monfragüe Biosphere Reserve: UNESCO Territory Action Plan.</b> University of Extremadura. 9000.00 €.</li>
