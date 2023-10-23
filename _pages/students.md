@@ -15,7 +15,7 @@ title: "Final Degrees"
 ## Currently (6):
 <ol reversed>
     <li> PhD. Expected 2025. Zhaoyue Wu. <b>Change Detection in Remote Sensing: New Techniques and Applications.</b> University of Extremadura.</li>
-    <li> joint PhD. Expected 2026. Pan Zheng. <b>Hypergraph Generative Network based Hyperspectral Unmixing.</b> Northeast Forestry China.</li>
+    <li> joint PhD. Expected 2026. Pan Zheng. <b>Hypergraph Generative Network based Hyperspectral Unmixing.</b> Hohai University.</li>
     <li> joint PhD. Expected 2025. Hailian Lu. <b> Key Technologies for Spectral Remote Sensing Fusion and Application.</b> Northeast Forestry China.</li>
     <li> joint PhD. Expected 2025. Youran Ge. <b>Development of new computational imaging methods: improvement and application of new automatic signal processing algorithms.</b> Beijing Jiaotong University.</li>
     <li> BsC. Expected 2023. José Luis García. <b>Efficient Hyperspectral Semantic Segmentation Using Rectangular Convolution.</b> University of Extremadura.</li>
