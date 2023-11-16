@@ -19,10 +19,16 @@ author_profile: true
 </style>
 ## Journal papers (64)
 
+
+
 <ol reversed>
     <li>
+Z. Wu, M. E. Paoletti, H. Su, X. Tao, L. Han, <u>J.M. Haut</u> and Antonio Plaza. <b>Background-guided Deformable Convolutional Autoencoder for Hyperspectral Anomaly Detection.</b> IEEE Transactions on Geoscience and Remote Sensing, 2023 <a href="" target="_blank">()</a>.
+    </li>
+
+
+    <li>
 S. Moreno-Álvarez, M.E. Paoletti, G. Cavallaro and <u>J.M. Haut</u>. <b>Enhancing Distributed Neural Network Training through Node-Based Communications.</b> IEEE Transactions on Neural Networks and Learning Systems, 2023 <a href="https://doi.org/10.1109/TNNLS.2023.3309735" target="_blank">(link)</a>.
-      
     </li>
     
     <li>
