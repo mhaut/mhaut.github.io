@@ -17,15 +17,22 @@ author_profile: true
     text-align: justify;
   }
 </style>
-## Journal papers (64)
+## Journal papers (66)
 
 
 
 <ol reversed>
     <li>
-Z. Wu, M. E. Paoletti, H. Su, X. Tao, L. Han, <u>J.M. Haut</u> and Antonio Plaza. <b>Background-guided Deformable Convolutional Autoencoder for Hyperspectral Anomaly Detection.</b> IEEE Transactions on Geoscience and Remote Sensing, 2023 <a href="" target="_blank">()</a>.
+Lirong Han, M. E. Paoletti, S. Moreno-Álvarez, <u>J.M. Haut</u>, R. Pastor-Vargas and Antonio Plaza. <b>Hashing for Retrieving Long-tailed Distributed Remote Sensing Images.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="https://doi.org/" target="_blank">()</a>.
     </li>
 
+    <li>
+<u>J.M. Haut</u>, S. Moreno-Álvarez, R. Pastor-Vargas, A. Perez-Garcia and M. E. Paoletti. <b>Cloud-Based Analysis of Large-Scale Hyperspectral Imagery for Oil Spill Detection.</b> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2023 <a href="https://doi.org/10.1109/JSTARS.2023.3344022" target="_blank">()</a>.
+    </li>
+
+    <li>
+Z. Wu, M. E. Paoletti, H. Su, X. Tao, L. Han, <u>J.M. Haut</u> and Antonio Plaza. <b>Background-guided Deformable Convolutional Autoencoder for Hyperspectral Anomaly Detection.</b> IEEE Transactions on Geoscience and Remote Sensing, 2023 <a href="https://doi.org/10.1109/TGRS.2023.3334562" target="_blank">()</a>.
+    </li>
 
     <li>
 S. Moreno-Álvarez, M.E. Paoletti, G. Cavallaro and <u>J.M. Haut</u>. <b>Enhancing Distributed Neural Network Training through Node-Based Communications.</b> IEEE Transactions on Neural Networks and Learning Systems, 2023 <a href="https://doi.org/10.1109/TNNLS.2023.3309735" target="_blank">(link)</a>.
@@ -288,9 +295,14 @@ Fern, R. ez-Beltran, <u>J.M. Haut</u>, M.E. Paoletti, J. Plaza, A. Plaza and F. 
 
 
 
-## International conference papers (23)
+## International conference papers (24)
 
 <ol reversed>
+
+    <li>
+Z. Wu, X. Tao, M. E. Paoletti, <u>J.M. Haut</u>, R. Pastor-Vargas and Antonio Plaza. <b>Deep Unrolling Network with Active Dictionary Learning for Hyperspectral Anomaly Detection.</b> 2023 13th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS), Athens, Greece, Oct. 31 - Nov. 02 2023 <a href="https://doi.org/" target="_blank">(link)</a>.
+
+    </li>
     <li>
 C. Anton-Munarriz, R. Pastor-Vargas, <u>J.M. Haut</u>, A. Robles-Gomez, M.E. Paoletti and J.A. Benitez-Andrades. <b>Detection of cerebral ischaemia using transfer learning techniques.</b> Proceedings - IEEE Symposium on Computer-Based Medical Systems, vol. 2023-June, 2023 <a href="https://doi.org/10.1109/CBMS58004.2023.00112" target="_blank">(link)</a>.
 
