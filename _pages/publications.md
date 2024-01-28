@@ -17,13 +17,18 @@ author_profile: true
     text-align: justify;
   }
 </style>
-## Journal papers (67)
+## Journal papers (68)
 
 
 
 <ol reversed>
+
     <li>
-Lirong Han, M. E. Paoletti, S. Moreno-Álvarez, <u>J.M. Haut</u>, R. Pastor-Vargas and Antonio Plaza. <b>Hashing for Retrieving Long-tailed Distributed Remote Sensing Images.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="https://doi.org/" target="_blank">(link not available)</a>.
+X. Tao, M. E. Paoletti, Z. Wu, <u>J.M. Haut</u>, P. Reng and Antonio Plaza. <b>An Abundance-Guided Attention Network for Hyperspectral Unmixing.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="https://doi.org/10.1109/TGRS.2024.3353259" target="_blank">(link)</a>.
+    </li>
+    
+    <li>
+L. Han, M. E. Paoletti, S. Moreno-Álvarez, <u>J.M. Haut</u>, R. Pastor-Vargas and Antonio Plaza. <b>Hashing for Retrieving Long-tailed Distributed Remote Sensing Images.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="https://doi.org/" target="_blank">(link not available)</a>.
     </li>
 
     <li>
