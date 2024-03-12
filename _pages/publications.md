@@ -17,11 +17,19 @@ author_profile: true
     text-align: justify;
   }
 </style>
-## Journal papers (68)
+## Journal papers (70)
 
 
 
 <ol reversed>
+
+    <li>
+S.K. Roy, A. Sukul, A. Jamali, <u>J.M. Haut</u> and P. Ghamisi. <b>Cross Hyperspectral and LiDAR Attention Transformer: An Extended Self-Attention for Land Use and Land Cover Classification.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="" target="_blank">(link not avaiable)</a>.
+    </li>
+
+    <li>
+L. Han, M.E. Paoletti, X. Tao, Z. Wu, J.M. Haut, P. Li, R. Pastor-Vargas and A. Plaza. <b>Hash-based Remote Sensing Image Retrieval.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="" target="_blank">(link not avaiable)</a>.
+    </li>
 
     <li>
 X. Tao, M. E. Paoletti, Z. Wu, <u>J.M. Haut</u>, P. Reng and Antonio Plaza. <b>An Abundance-Guided Attention Network for Hyperspectral Unmixing.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="https://doi.org/10.1109/TGRS.2024.3353259" target="_blank">(link)</a>.
