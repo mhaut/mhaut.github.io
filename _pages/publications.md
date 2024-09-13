@@ -17,18 +17,22 @@ author_profile: true
     text-align: justify;
   }
 </style>
-## Journal papers (70)
+## Journal papers (72)
 
 
 
 <ol reversed>
 
     <li>
-S.K. Roy, A. Sukul, A. Jamali, <u>J.M. Haut</u> and P. Ghamisi. <b>Cross Hyperspectral and LiDAR Attention Transformer: An Extended Self-Attention for Land Use and Land Cover Classification.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="" target="_blank">(link not avaiable)</a>.
+<u>J.M. Haut</u>, J.M. Franco-Valiente, M.E. Paoletti, S. Moreno-Álvarez and A. Pardo-Diaz. <b>Hyperspectral Image Analysis Using Cloud-Based Support Vector Machines.</b> Elsevier. SN Computer Science, 2024 <a href="[https://doi.org/10.1007/s42979-024-03073-z](https://ieeexplore.ieee.org/document/10462184)" target="_blank">(link)</a>.
     </li>
 
     <li>
-L. Han, M.E. Paoletti, X. Tao, Z. Wu, J.M. Haut, P. Li, R. Pastor-Vargas and A. Plaza. <b>Hash-based Remote Sensing Image Retrieval.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="" target="_blank">(link not avaiable)</a>.
+S.K. Roy, A. Sukul, A. Jamali, <u>J.M. Haut</u> and P. Ghamisi. <b>Cross Hyperspectral and LiDAR Attention Transformer: An Extended Self-Attention for Land Use and Land Cover Classification.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="[https://doi.org/10.1109/TGRS.2024.3374324](https://ieeexplore.ieee.org/document/10462184)" target="_blank">(link)</a>.
+    </li>
+
+    <li>
+L. Han, M.E. Paoletti, X. Tao, Z. Wu, J.M. Haut, P. Li, R. Pastor-Vargas and A. Plaza. <b>Hash-based Remote Sensing Image Retrieval.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="[https://doi.org/10.1109/TGRS.2024.3429350](https://ieeexplore.ieee.org/document/10599496)" target="_blank">(link)</a>.
     </li>
 
     <li>
