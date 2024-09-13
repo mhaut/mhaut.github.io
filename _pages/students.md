@@ -39,8 +39,9 @@ title: "Final Degrees"
 
 ## Msc Students (4)
 <ol reversed>
-    <li> 2023. Juan Salvador. <b>Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem.</b> University of Extremadura.</li>
-    <li> 2022. Mercedes Paoletti. <b>Hyperspectral Image Classification with Self-Supervised Capsule Networks.</b> University of Extremadura. Grade: With honours.</li>
+    <li> 2024. Enrique Moreno-Ávila <b>Implementation of a distributed library in Hive for rice state prediction.</b> University of Extremadura. Grade: With honours.</li>
+    <li> 2023. Juan Salvador. <b>Implementation of the Maximum Distance Analysis Algorithm using the Apache Cloud Computing Ecosystem.</b> University of Extremadura. Grade: With honours.</li>
+  <li> 2022. Mercedes Paoletti. <b>Hyperspectral Image Classification with Self-Supervised Capsule Networks.</b> University of Extremadura. Grade: With honours.</li>
     <li> 2022. Andrés Abelardo. <b>Optimization of Convolutional Neural Networks for Hyperspectral Image Classification.</b> National University of Distance Education. Grade: Very Good.</li>
     <li> 2022. Marcos Minaya. <b>Laser-Engraved Code Recognition using Deep Learning Techniques.</b> National University of Distance Education. Grade: Excellent.</li>
 </ol>
