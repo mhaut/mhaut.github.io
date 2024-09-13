@@ -5,6 +5,14 @@ title: "Teaching Activity"
 
 
 
+## 2024/2025: University of Extremadura.
+- Bachelor's Degree in Computer Engineering with a specialization in Computer Engineering
+    - Multimedia Systems, 4th year.
+    - Specialized Architectures, 4th year.
+    - Introduction to Computers, 1st year.
+- Bachelor's Degree in Computer Engineering with a specialization in Software Engineering
+    - Introduction to Computers, 1st year.
+
 ## 2023/2024: University of Extremadura.
 - Bachelor's Degree in Computer Engineering with a specialization in Computer Engineering
     - Multimedia Systems, 4th year.
