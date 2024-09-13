@@ -28,6 +28,10 @@ author_profile: true
     </li>
 
     <li>
+S. Moreno-Álvarez, M.E. Paoletti, A.J. Sanchez-Fernandez, J.A. Rico-Gallego, L. Han and <u>J.M. Haut</u>. <b>Federated Learning Meets Remote Sensing.</b> Elsevier, Expert Systems with Applications, 2024 <a href="[https://doi.org/10.1016/j.eswa.2024.124583](https://www.sciencedirect.com/science/article/pii/S0957417424014507)" target="_blank">(link)</a>.
+    </li>
+
+    <li>
 S.K. Roy, A. Sukul, A. Jamali, <u>J.M. Haut</u> and P. Ghamisi. <b>Cross Hyperspectral and LiDAR Attention Transformer: An Extended Self-Attention for Land Use and Land Cover Classification.</b> IEEE Transactions on Geoscience and Remote Sensing, 2024 <a href="[https://doi.org/10.1109/TGRS.2024.3374324](https://ieeexplore.ieee.org/document/10462184)" target="_blank">(link)</a>.
     </li>
 
