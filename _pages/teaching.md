@@ -44,7 +44,7 @@ nav_order: 5
 
 - **Arquitecturas Especializadas** — Theory + Lab (43.5 cr.) — GII Ing. Computadores, 4th year
 - **Diseño de Sistemas Operativos** — Theory + Lab (90 cr.) — GII Ing. Computadores, 3rd year
-- **Sistemas Multimedia** — Lab (30 cr.) — GII Ing. Computadores, 4th year
+- **Sistemas Multimedia** — Lab (60 cr.) — GII Ing. Computadores, 4th year
 - **Computación Gráfica** — Theory + Lab (30 cr.) — Máster en Ingeniería Informática
 - **Introducción a los Computadores** — Theory (37.5 cr.) — GII Ing. Computadores / Ing. Software, 1st year
 
