@@ -13,6 +13,6 @@ scopus_id: 57215636081
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: /assets/img/iconouex.webp
+  logo: https://mhaut.github.io/assets/img/iconouex.webp
   title: OpenData UEx Profile
   url: https://opendata.unex.es/investiga/investigadores/2d72da0e23d9fc443b71a4db71e96383
