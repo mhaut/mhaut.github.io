@@ -8,7 +8,10 @@ nav_order: 5
 ---
 
 <div style="margin-bottom: 2rem; padding: 1.2rem; border-left: 4px solid var(--global-theme-color); background: var(--global-bg-color); border-radius: 0 8px 8px 0; line-height: 2;">
-  Teaching since <strong>2017</strong> (FPU grant) at UEx and UNED
+  <strong>9 academic years</strong> of teaching experience (2017–2026)<br>
+  <strong>11 different courses</strong> at undergraduate and master level<br>
+  <strong>2 universities:</strong> University of Extremadura &amp; UNED<br>
+  <strong>2 teaching innovation groups</strong> (coordinator of ELEVATE)
 </div>
 
 ---
@@ -16,6 +19,8 @@ nav_order: 5
 ### 2025–2026 · University of Extremadura
 
 - **Arquitecturas Especializadas** — Theory + Lab (90 cr.) — GII Ing. Computadores, 4th year
+- **Sistemas Multimedia** — Theory + Lab (60 cr.) — GII Ing. Computadores, 4th year
+- **Computación Paralela** — Theory + Lab (60 cr.) — GII Ing. Computadores, 4th year
 
 ---
 
