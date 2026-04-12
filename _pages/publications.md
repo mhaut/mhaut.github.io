@@ -7,6 +7,10 @@ nav: true
 nav_order: 2
 ---
 
+<div style="margin-bottom: 2rem; padding: 1.2rem; border-left: 4px solid var(--global-theme-color); background: var(--global-bg-color); border-radius: 0 8px 8px 0;">
+  <strong>87 JCR journal articles</strong> (52 Q1, 27 Q2, 1 Q3, 1 Q4) · <strong>63+ conference papers</strong> (international and national) · <strong>h-index: 40</strong> (Google Scholar) · <strong>7,600+ citations</strong> · ESI Highly Cited & Hot Papers
+</div>
+
 <div style="margin-bottom: 2rem; font-size: 1.1rem;">
   <a href="#journals"><strong>Journal Papers</strong></a> · 
   <a href="#conferences"><strong>International Conferences</strong></a> · 
