@@ -1,65 +1,25 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects (17 competitive projects — PI in 6).
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## As Principal Investigator
 
-{% else %}
+1. **OASIS — Optimización de la IA para Iniciativas Sostenibles de Teledetección Hiperespectral.** Agencia Estatal de Investigación. 2024–2027. 163,750 €.
+2. **RAT_EOS_PC — Redes de alertas tempranas, para la teledetección de riesgos derivados del cambio climático, por satélites de observación de la tierra para respuesta de protección civil.** European Commission. 2023–2026. 548,502 €.
+3. **Análisis de imágenes hiperespectrales para la monitorización de infraestructuras hidráulicas.** SEXPE. 2022–2023. 40,677 €.
 
-<!-- Display projects without categories -->
+---
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+## As Team Member
 
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+1. **DEEPGREEN — Optimizando los Mecanismos de Inteligencia Artificial para el Análisis Sostenible de Datos Teledetectados.** Junta de Extremadura. IP: M.E. Paoletti. 2025–2028. 119,999 €.
+2. **Arquitecturas Cognitivas Autoadaptables para Ecosistemas Tecnológicos Robóticos Asistenciales.** Agencia Estatal de Investigación. IP: P. Núñez Trujillo. 2022–2024. 195,730 €.
+3. **Aprendizaje Automático para la Optimización de Plataformas de Supercomputación y soporte de Aplicaciones de Imagen Hiperespectral (IB20040).** Junta de Extremadura. IP: J.A. Rico Gallego. 2021–2024. 144,533 €.
+4. **Desarrollo de técnicas de aprendizaje profundo para la optimización de la infraestructura de supercomputación y aplicaciones de imagen hiperespectral (PID2019-110315RB-100).** Agencia Estatal de Investigación. IPs: J. Plaza, J.A. Rico Gallego. 2020–2023. 91,960 €.
+5. **El color en la escultura y arquitectura de la Antigüedad Clásica.** UEx. IP: J.M. Haut. 2019–2021.
+6. **Computación hiperespectral (GR18060).** Junta de Extremadura. 2018–2021. 167,402 €.
