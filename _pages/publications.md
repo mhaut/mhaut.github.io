@@ -15,22 +15,22 @@ nav_order: 2
 
 <h2 id="journals" style="margin-bottom: 1.5rem;">Journal Papers</h2>
 
-<div class="publications">
-{% bibliography --query @article %}
-</div>
+{% for y in (2016..2026) reversed %}
+{% bibliography --query @article[year={{y}}] %}
+{% endfor %}
 
 <hr style="margin: 4rem 0;">
 
 <h2 id="conferences" style="margin-bottom: 1.5rem;">International Conference Papers</h2>
 
-<div class="publications">
-{% bibliography --query @inproceedings[keywords!=national] %}
-</div>
+{% for y in (2015..2026) reversed %}
+{% bibliography --query @inproceedings[year={{y}},keywords!=national] %}
+{% endfor %}
 
 <hr style="margin: 4rem 0;">
 
 <h2 id="national" style="margin-bottom: 1.5rem;">National Conference Papers</h2>
 
-<div class="publications">
-{% bibliography --query @inproceedings[keywords=national] %}
-</div>
+{% for y in (2016..2026) reversed %}
+{% bibliography --query @inproceedings[year={{y}},keywords=national] %}
+{% endfor %}
