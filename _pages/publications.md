@@ -9,7 +9,8 @@ nav_order: 2
 
 <div style="margin-bottom: 2rem; font-size: 1.1rem;">
   <a href="#journals"><strong>Journal Papers</strong></a> · 
-  <a href="#conferences"><strong>Conference Papers</strong></a>
+  <a href="#conferences"><strong>International Conferences</strong></a> · 
+  <a href="#national"><strong>National Conferences</strong></a>
 </div>
 
 <h2 id="journals" style="margin-bottom: 1.5rem;">Journal Papers</h2>
@@ -20,8 +21,16 @@ nav_order: 2
 
 <hr style="margin: 4rem 0;">
 
-<h2 id="conferences" style="margin-bottom: 1.5rem;">Conference Papers</h2>
+<h2 id="conferences" style="margin-bottom: 1.5rem;">International Conference Papers</h2>
 
 <div class="publications">
-{% bibliography --query @inproceedings %}
+{% bibliography --query @inproceedings[keywords!=national] %}
+</div>
+
+<hr style="margin: 4rem 0;">
+
+<h2 id="national" style="margin-bottom: 1.5rem;">National Conference Papers</h2>
+
+<div class="publications">
+{% bibliography --query @inproceedings[keywords=national] %}
 </div>
