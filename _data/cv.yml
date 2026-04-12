@@ -75,7 +75,7 @@ cv:
     Experience:
       - company: University of Extremadura
         position: Profesor Contratado Doctor
-        location: Dept. TC2, Escuela Politécnica de Cáceres
+        location: Cáceres, Spain
         start_date: 2023
         end_date: present
         summary: Architecture and Computer Technology area. Teaching Arquitecturas Especializadas, Diseño de Sistemas Operativos, Tecnología de Computadores.
@@ -85,7 +85,7 @@ cv:
 
       - company: University of Extremadura
         position: Profesor Ayudante Doctor
-        location: Dept. TC2, Escuela Politécnica de Cáceres
+        location: Cáceres, Spain
         start_date: 2021
         end_date: 2023
         highlights:
