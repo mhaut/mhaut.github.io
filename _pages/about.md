@@ -2,7 +2,8 @@
 layout: about
 title: About
 permalink: /
-subtitle: > Dept. Computer and Communication Technology, School of Technology, Cáceres, University of Extremadura, Spain.
+subtitle: >
+  Dept. Computer and Communication Technology, School of Technology, Cáceres, University of Extremadura, Spain.
 
 
 profile:
