@@ -5,7 +5,6 @@ permalink: /
 subtitle: >
   Dept. Computer and Communication Technology, School of Technology, Cáceres, University of Extremadura, Spain.
 
-
 profile:
   align: right
   image: profile.png
@@ -14,8 +13,6 @@ profile:
     <p>Associate Professor</p>
     <p><a href='https://www.unex.es'>University of Extremadura</a></p>
     <p><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#106;&#117;&#97;&#110;&#109;&#97;&#114;&#105;&#111;&#104;&#97;&#117;&#116;&#64;&#117;&#110;&#101;&#120;&#46;&#101;&#115;'>&#106;&#117;&#97;&#110;&#109;&#97;&#114;&#105;&#111;&#104;&#97;&#117;&#116;&#64;&#117;&#110;&#101;&#120;&#46;&#101;&#115;</a></p>
-
-
 
 selected_papers: true
 social: true
