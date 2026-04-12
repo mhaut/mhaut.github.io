@@ -7,41 +7,85 @@ nav: true
 nav_order: 5
 ---
 
-## University of Extremadura (2019–present)
-
-| Course                        | Degree                                  | Type         | Years     |
-| ----------------------------- | --------------------------------------- | ------------ | --------- |
-| Arquitecturas Especializadas  | GII – Ing. Computadores                 | Theory + Lab | 2021–2026 |
-| Diseño de Sistemas Operativos | GII – Ing. Computadores                 | Theory + Lab | 2023–2026 |
-| Tecnología de Computadores    | GII – Ing. Computadores / Ing. Software | Theory + Lab | 2019–2026 |
-| Computación Distribuida       | GII – Ing. Computadores                 | Lab          | 2018–2020 |
-| Sistemas Multimedia           | GII – Ing. Computadores                 | Theory + Lab | 2021–2022 |
-| Sistemas Empotrados           | GII – Ing. Computadores                 | Lab          | 2021–2022 |
-
-## Universidad Nacional de Educación a Distancia — UNED (2020–2021)
-
-| Course                                                | Degree                                      | ECTS      |
-| ----------------------------------------------------- | ------------------------------------------- | --------- |
-| Bases de Datos                                        | Grado en Ingeniería Informática             | 49.47 cr. |
-| Gestión/Almacenamiento de Información no Estructurada | Máster en Ingeniería y Ciencia de Datos     | 27.6 cr.  |
-| Proyecto Fin de Grado                                 | Grado en Ing. Tecnologías de la Información | 2.31 cr.  |
+<div style="margin-bottom: 2rem; padding: 1.2rem; border-left: 4px solid var(--global-theme-color); background: var(--global-bg-color); border-radius: 0 8px 8px 0; line-height: 2;">
+  Teaching since <strong>2017</strong> (FPU grant) at UEx and UNED
+</div>
 
 ---
 
-## Teaching Quality
+### 2025–2026 · University of Extremadura
 
-- **DOCENTIA-UEx score: 92.93/100**
-- Student satisfaction scores consistently above **8/10** across all courses (survey evaluations).
-- Certified in: Plan de Formación de Profesores Noveles (50h), Formación de Profesores Tutores (36h), Competencia Digital Docente, among others.
+- **Arquitecturas Especializadas** — Theory + Lab (90 cr.) — GII Ing. Computadores, 4th year
 
 ---
 
-## Teaching Innovation Groups
+### 2024–2025 · University of Extremadura
 
-1. **ELEVATE** — Educational Learning with Environmental Vision and AI Technology Enhancement. Coordinator. Since 2024.
-2. **Iniciativa para la Tutoría y el Aprendizaje.** Member. Since 2021.
+- **Arquitecturas Especializadas** — Theory + Lab (90 cr.) — GII Ing. Computadores, 4th year
+- **Introducción a los Computadores** — Lab (45 cr.) — GII Ing. Computadores / Ing. Software, 1st year
+- **Sistemas Multimedia** — Theory + Lab (60 cr.) — GII Ing. Computadores, 4th year
 
 ---
+
+### 2023–2024 · University of Extremadura
+
+- **Arquitecturas Especializadas** — Theory + Lab (60 cr.) — GII Ing. Computadores, 4th year
+- **Diseño de Sistemas Operativos** — Theory + Lab (90 cr.) — GII Ing. Computadores, 3rd year
+- **Sistemas Multimedia** — Theory + Lab (60 cr.) — GII Ing. Computadores, 4th year
+
+---
+
+### 2022–2023 · University of Extremadura
+
+- **Arquitecturas Especializadas** — Theory + Lab (43.5 cr.) — GII Ing. Computadores, 4th year
+- **Diseño de Sistemas Operativos** — Theory + Lab (90 cr.) — GII Ing. Computadores, 3rd year
+- **Sistemas Multimedia** — Lab (30 cr.) — GII Ing. Computadores, 4th year
+- **Computación Gráfica** — Theory + Lab (30 cr.) — Máster en Ingeniería Informática
+- **Introducción a los Computadores** — Theory (37.5 cr.) — GII Ing. Computadores / Ing. Software, 1st year
+
+---
+
+### 2021–2022 · University of Extremadura
+
+- **Arquitecturas Especializadas** — Theory + Lab (52.5 cr.) — GII Ing. Computadores, 4th year
+- **Diseño de Sistemas Operativos** — Theory (30 cr.) — GII Ing. Computadores, 3rd year
+- **Sistemas Multimedia** — Theory + Lab (60 cr.) — GII Ing. Computadores, 4th year
+- **Sistemas Empotrados** — Theory + Lab (45 cr.) — GII Ing. Computadores, 4th year
+- **Tecnología de Computadores** — Theory + Lab (82.5 cr.) — GII Ing. Computadores / Ing. Software, 1st year
+
+---
+
+### 2020–2021 · Universidad Nacional de Educación a Distancia (UNED)
+
+- **Bases de Datos** (49.47 cr.) — Grado en Ingeniería Informática
+- **Gestión/Almacenamiento de Información no Estructurada** (27.6 cr.) — Máster en Ingeniería y Ciencia de Datos
+- **Proyecto Fin de Grado** (2.31 cr.) — Grado en Ing. Tecnologías de la Información
+
+---
+
+### 2019–2020 · University of Extremadura
+
+- **Tecnología de Computadores** — Theory + Lab (127.5 cr.) — GII Ing. Computadores / Ing. Software, 1st year
+- **Computación Distribuida** — Lab (30 cr.) — GII Ing. Computadores, 3rd year
+
+---
+
+### 2018–2019 · University of Extremadura
+
+- **Computación Distribuida** — Theory + Lab (60 cr.) — GII Ing. Computadores, 3rd year
+
+---
+
+### 2017–2018 · University of Extremadura
+
+- **Computación Distribuida** — Theory + Lab (60 cr.) — GII Ing. Computadores, 3rd year
+
+---
+
+## Teaching Innovation
+
+- **ELEVATE** — Educational Learning with Environmental Vision and AI Technology Enhancement. **Coordinator.** Since 2024.
+- **Iniciativa para la Tutoría y el Aprendizaje.** Member. Since 2021.
 
 ## Tutorial Activity
 
