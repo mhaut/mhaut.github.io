@@ -7,8 +7,12 @@ nav: true
 nav_order: 2
 ---
 
-<div style="margin-bottom: 2rem; padding: 1.2rem; border-left: 4px solid var(--global-theme-color); background: var(--global-bg-color); border-radius: 0 8px 8px 0;">
-  <strong>87 JCR journal articles</strong> (52 Q1, 27 Q2, 1 Q3, 1 Q4) · <strong>63+ conference papers</strong> (international and national) · <strong>h-index: 40</strong> (Google Scholar) · <strong>7,600+ citations</strong> · ESI Highly Cited & Hot Papers
+<div style="margin-bottom: 2rem; padding: 1.2rem; border-left: 4px solid var(--global-theme-color); background: var(--global-bg-color); border-radius: 0 8px 8px 0; line-height: 2;">
+  <strong>87 JCR journal articles</strong> (52 Q1, 27 Q2, 1 Q3, 1 Q4)<br>
+  <strong>63+ conference papers</strong> (international and national)<br>
+  <strong>h-index: 40</strong> (Google Scholar)<br>
+  <strong>7,600+ citations</strong><br>
+  ESI Highly Cited &amp; Hot Papers
 </div>
 
 <div style="margin-bottom: 2rem; font-size: 1.1rem;">
