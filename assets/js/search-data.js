@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "85 JCR articles (52 Q1, 27 Q2) · 70+ conference papers · h-index 40 · 7,600+ citations.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
         },{id: "nav-projects",
           title: "Projects",
           description: "Research projects (17 competitive projects — PI in 6).",
