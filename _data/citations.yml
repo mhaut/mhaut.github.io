@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-05-04'
+  last_updated: '2026-05-06'
 papers:
   zLffeY8AAAAJ:-6RzNnnwWf8C:
     citations: 1
     title: Inter-Sensor Regression Analysis for Operational Sentinel-2 and Sentinel-3 Data Products
     year: '2018'
   zLffeY8AAAAJ:-uzm3Y7AvW0C:
-    citations: 1179
+    citations: 1182
     title: 'Deep learning classifiers for hyperspectral imaging: A review'
     year: '2019'
   zLffeY8AAAAJ:-yGd096yOn8C:
-    citations: 272
+    citations: 273
     title: Visual attention-driven hyperspectral image classification
     year: '2019'
   zLffeY8AAAAJ:0aBXIfxlw9sC:
@@ -30,7 +30,7 @@ papers:
     title: Efficient semantic segmentation of hyperspectral images using adaptable rectangular convolution
     year: '2022'
   zLffeY8AAAAJ:2ywjKiB__4kC:
-    citations: 709
+    citations: 710
     title: A new deep convolutional neural network for fast hyperspectral image classification
     year: '2018'
   zLffeY8AAAAJ:37UQlXuwjP4C:
@@ -114,7 +114,7 @@ papers:
     title: Adaptable convolutional network for hyperspectral image classification
     year: '2021'
   zLffeY8AAAAJ:C33y2ycGS3YC:
-    citations: 330
+    citations: 331
     title: Active learning with convolutional neural networks for hyperspectral image classification using a new Bayesian approach
     year: '2018'
   zLffeY8AAAAJ:CNPyR2KL9-0C:
@@ -222,7 +222,7 @@ papers:
     title: Ghostnet for hyperspectral image classification
     year: '2021'
   zLffeY8AAAAJ:PQEM9vzQD9gC:
-    citations: 401
+    citations: 404
     title: "Spectral\u2013spatial morphological attention transformer for hyperspectral image classification"
     year: '2023'
   zLffeY8AAAAJ:PlWzFYVEG4EC:
@@ -254,7 +254,7 @@ papers:
     title: Multibranch selective kernel networks for hyperspectral image classification
     year: '2020'
   zLffeY8AAAAJ:RuPIJ_LgqDgC:
-    citations: 81
+    citations: 80
     title: 'Scalable recurrent neural network for hyperspectral image classification: ME Paoletti et al.'
     year: '2020'
   zLffeY8AAAAJ:SAZ1SQo2q1kC:
@@ -306,7 +306,7 @@ papers:
     title: Multimodal probabilistic latent semantic analysis for sentinel-1 and sentinel-2 image fusion
     year: '2018'
   zLffeY8AAAAJ:WwIwg2wKZ0QC:
-    citations: 10
+    citations: 11
     title: Central cohesion gradual hashing for remote sensing image retrieval
     year: '2023'
   zLffeY8AAAAJ:X0DADzN9RKwC:
@@ -322,7 +322,7 @@ papers:
     title: 'PIDLF+: A Novel Adaptive PIDLF for Forestry Height Mapping Based on Single Baseline PolInSAR Data'
     year: '2025'
   zLffeY8AAAAJ:YB4bud6kWLwC:
-    citations: 43
+    citations: 44
     title: 'U-IMG2DSM: Unpaired simulation of digital surface models with generative adversarial networks'
     year: '2020'
   zLffeY8AAAAJ:YPNY0knpFBYC:
@@ -418,7 +418,7 @@ papers:
     title: Hashing for Retrieving Long-Tailed Distributed Remote Sensing Images
     year: '2024'
   zLffeY8AAAAJ:ijdKiLOsEJMC:
-    citations: 55
+    citations: 56
     title: Flop-reduction through memory allocations within cnn for hyperspectral image classification
     year: '2020'
   zLffeY8AAAAJ:isU91gLudPYC:
@@ -450,7 +450,7 @@ papers:
     title: "Generative adversarial minority oversampling for spectral\u2013spatial hyperspectral image classification"
     year: '2021'
   zLffeY8AAAAJ:lbI08cpqPnQC:
-    citations: 2
+    citations: 3
     title: Cerebral ischemia detection using deep learning techniques
     year: '2025'
   zLffeY8AAAAJ:lg2tdxc6qMwC:
