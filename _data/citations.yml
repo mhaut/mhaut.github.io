@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-05-06'
+  last_updated: '2026-06-17'
 papers:
   zLffeY8AAAAJ:-6RzNnnwWf8C:
     citations: 1
     title: Inter-Sensor Regression Analysis for Operational Sentinel-2 and Sentinel-3 Data Products
     year: '2018'
   zLffeY8AAAAJ:-uzm3Y7AvW0C:
-    citations: 1182
+    citations: 1211
     title: 'Deep learning classifiers for hyperspectral imaging: A review'
     year: '2019'
   zLffeY8AAAAJ:-yGd096yOn8C:
-    citations: 273
+    citations: 278
     title: Visual attention-driven hyperspectral image classification
     year: '2019'
   zLffeY8AAAAJ:0aBXIfxlw9sC:
@@ -26,27 +26,27 @@ papers:
     title: "Code2bot: Una propuesta de comunidad de aprendizaje de la programaci\xF3n basada en robots"
     year: '2015'
   zLffeY8AAAAJ:2vr6o8x5NLkC:
-    citations: 20
+    citations: 22
     title: Efficient semantic segmentation of hyperspectral images using adaptable rectangular convolution
     year: '2022'
   zLffeY8AAAAJ:2ywjKiB__4kC:
-    citations: 710
+    citations: 718
     title: A new deep convolutional neural network for fast hyperspectral image classification
     year: '2018'
   zLffeY8AAAAJ:37UQlXuwjP4C:
-    citations: 61
+    citations: 62
     title: Distributed deep learning for remote sensing data interpretation
     year: '2021'
   zLffeY8AAAAJ:3A3nxV7CjKIC:
     citations: 3
     title: Publications Repository-Helmholtz-Zentrum Dresden-Rossendorf
-    year: '2018'
+    year: '2025'
   zLffeY8AAAAJ:3_LpOwP6eMYC:
-    citations: 50
+    citations: 55
     title: Hash-based remote sensing image retrieval
     year: '2024'
   zLffeY8AAAAJ:3lUAU8Oskd0C:
-    citations: 0
+    citations: 1
     title: An efficiency-driven anomaly detection pipeline for mobile networks
     year: '2026'
   zLffeY8AAAAJ:4Yq6kJLCcecC:
@@ -66,7 +66,7 @@ papers:
     title: Fast Attention Network approach for traffic classification on next-generation networks
     year: '2026'
   zLffeY8AAAAJ:6VlyvFCUEfcC:
-    citations: 75
+    citations: 79
     title: An abundance-guided attention network for hyperspectral unmixing
     year: '2024'
   zLffeY8AAAAJ:6ZzL7HXColQC:
@@ -74,7 +74,7 @@ papers:
     title: 'DenseMixerMamba: Residual Mixing for Spectral-Spatial Hyperspectral Image Classification'
     year: '2025'
   zLffeY8AAAAJ:7Frjd3zlGBUC:
-    citations: 24
+    citations: 26
     title: Cloud-based analysis of large-scale hyperspectral imagery for oil spill detection
     year: '2023'
   zLffeY8AAAAJ:8dzOF9BpDQoC:
@@ -94,7 +94,7 @@ papers:
     title: 'Fast dimensionality reduction and classification of hyperspectral images with extreme learning machines: JM Haut et al.'
     year: '2018'
   zLffeY8AAAAJ:AZju0d2GQJ0C:
-    citations: 56
+    citations: 57
     title: Multiple attention-guided capsule networks for hyperspectral image classification
     year: '2021'
   zLffeY8AAAAJ:AzKEL7Gb_04C:
@@ -122,7 +122,7 @@ papers:
     title: GPU parallel implementation of dual-depth sparse probabilistic latent semantic analysis for hyperspectral unmixing
     year: '2019'
   zLffeY8AAAAJ:DXE8ND7PrJAC:
-    citations: 30
+    citations: 33
     title: A comprehensive survey of imbalance correction techniques for hyperspectral data classification
     year: '2023'
   zLffeY8AAAAJ:EaFouW7jFu4C:
@@ -130,15 +130,15 @@ papers:
     title: Hashing for retrieving long-tailed distributed remote sensing images
     year: '2024'
   zLffeY8AAAAJ:EsEWqaRxkBgC:
-    citations: 157
+    citations: 160
     title: Hyperspectral image classification using random occlusion data augmentation
     year: '2019'
   zLffeY8AAAAJ:G1UMdFYMoxkC:
-    citations: 54
+    citations: 56
     title: 'Inference in supervised spectral classifiers for on-board hyperspectral imaging: An overview'
     year: '2020'
   zLffeY8AAAAJ:H7nrzBkawXsC:
-    citations: 0
+    citations: 1
     title: Joint-learning-based coded aperture compressive temporal imaging
     year: '2024'
   zLffeY8AAAAJ:H_jBuBxbQIAC:
@@ -154,7 +154,7 @@ papers:
     title: "Analyzing the Users\u2019 Acceptance of an IoT Cloud Platform using the UTAUT/TAM Model"
     year: '2021'
   zLffeY8AAAAJ:Ic1VZgkJnDsC:
-    citations: 117
+    citations: 120
     title: Morphological convolutional neural networks for hyperspectral image classification
     year: '2021'
   zLffeY8AAAAJ:J3LtWjKFLicC:
@@ -168,9 +168,9 @@ papers:
   zLffeY8AAAAJ:KI9T_ytC6pkC:
     citations: 0
     title: 'Introduction to Hyperspectral Imaging and Deep Learning Methods: A General'
-    year: Unknown Year
+    year: '2026'
   zLffeY8AAAAJ:KS-xo-ZNxMsC:
-    citations: 12
+    citations: 13
     title: 'CIT: Content-invariant translation with hybrid attention mechanism for unsupervised change detection'
     year: '2023'
   zLffeY8AAAAJ:KTwcwpFFj4wC:
@@ -178,7 +178,7 @@ papers:
     title: Correlation-aware averaging for federated learning in remote sensing data classification
     year: '2024'
   zLffeY8AAAAJ:KWzIFqRkAKkC:
-    citations: 191
+    citations: 197
     title: A single model CNN for hyperspectral image denoising
     year: '2019'
   zLffeY8AAAAJ:LGlY6t8CeOMC:
@@ -190,7 +190,7 @@ papers:
     title: "Nuevas t\xE9cnicas para el procesamiento masivo de datos de observaci\xF3n remota de la Tierra"
     year: '2019'
   zLffeY8AAAAJ:L_l9e5I586QC:
-    citations: 564
+    citations: 567
     title: "Deep pyramidal residual networks for spectral\u2013spatial hyperspectral image classification"
     year: '2018'
   zLffeY8AAAAJ:M0leSnx2MbUC:
@@ -198,11 +198,11 @@ papers:
     title: Deep attention-driven HSI scene classification based on inverted dot-product
     year: '2022'
   zLffeY8AAAAJ:MIg0yeAD4ggC:
-    citations: 75
+    citations: 76
     title: Remote sensing image fusion using hierarchical multimodal probabilistic latent semantic analysis
     year: '2018'
   zLffeY8AAAAJ:N4u4nq0IxgcC:
-    citations: 141
+    citations: 144
     title: Hyperspectral anomaly detection with relaxed collaborative representation
     year: '2022'
   zLffeY8AAAAJ:NMlhSUseqAsC:
@@ -210,19 +210,19 @@ papers:
     title: Accessibility-free active learning for hyperspectral image classification
     year: '2019'
   zLffeY8AAAAJ:NxmKEeNBbOMC:
-    citations: 129
+    citations: 130
     title: Remote sensing image superresolution using deep residual channel attention
     year: '2019'
   zLffeY8AAAAJ:Og1tA8FjbJAC:
-    citations: 75
+    citations: 76
     title: "Analyzing the users\u2019 acceptance of an IoT cloud platform using the UTAUT/TAM model"
     year: '2021'
   zLffeY8AAAAJ:OzeSX8-yOCQC:
-    citations: 157
+    citations: 158
     title: Ghostnet for hyperspectral image classification
     year: '2021'
   zLffeY8AAAAJ:PQEM9vzQD9gC:
-    citations: 404
+    citations: 426
     title: "Spectral\u2013spatial morphological attention transformer for hyperspectral image classification"
     year: '2023'
   zLffeY8AAAAJ:PlWzFYVEG4EC:
@@ -238,11 +238,11 @@ papers:
     title: Endmember estimation from hyperspectral images using geometric distances
     year: '2021'
   zLffeY8AAAAJ:QsKbpXNoaWkC:
-    citations: 11
+    citations: 12
     title: Novel spectral loss function for unsupervised hyperspectral image segmentation
     year: '2023'
   zLffeY8AAAAJ:R22Rs3tN8aoC:
-    citations: 5
+    citations: 6
     title: Transformer-enhanced CNN based on intensive feature for hyperspectral unmixing
     year: '2024'
   zLffeY8AAAAJ:RJOyoaXV5v8C:
@@ -254,11 +254,11 @@ papers:
     title: Multibranch selective kernel networks for hyperspectral image classification
     year: '2020'
   zLffeY8AAAAJ:RuPIJ_LgqDgC:
-    citations: 80
+    citations: 81
     title: 'Scalable recurrent neural network for hyperspectral image classification: ME Paoletti et al.'
     year: '2020'
   zLffeY8AAAAJ:SAZ1SQo2q1kC:
-    citations: 415
+    citations: 419
     title: Capsule networks for hyperspectral image classification
     year: '2018'
   zLffeY8AAAAJ:SxCCDk4iOpsC:
@@ -278,11 +278,11 @@ papers:
     title: 'Deep mixed precision for hyperspectral image classification: ME Paoletti et al.'
     year: '2021'
   zLffeY8AAAAJ:TesyEGJKHF4C:
-    citations: 44
+    citations: 45
     title: Federated learning meets remote sensing
     year: '2024'
   zLffeY8AAAAJ:U0iAMwwPxtsC:
-    citations: 32
+    citations: 33
     title: 'Kacnet: Kolmogorov-arnold convolution network for hyperspectral anomaly detection'
     year: '2025'
   zLffeY8AAAAJ:VRfTbSk87rEC:
@@ -294,7 +294,7 @@ papers:
     title: 'REDU-Net: Robust and efficient dynamic unfolding network for abundance estimation'
     year: '2025'
   zLffeY8AAAAJ:Vr2j17o0sqMC:
-    citations: 73
+    citations: 76
     title: 'AAtt-CNN: Automatic Attention-Based Convolutional Neural Networks for Hyperspectral Image Classification'
     year: '2023'
   zLffeY8AAAAJ:WWeOtg8bX_EC:
@@ -302,11 +302,11 @@ papers:
     title: Deep shared proxy construction hashing for cross-modal remote sensing image fast target retrieval
     year: '2024'
   zLffeY8AAAAJ:Wq2b2clWBLsC:
-    citations: 45
+    citations: 46
     title: Multimodal probabilistic latent semantic analysis for sentinel-1 and sentinel-2 image fusion
     year: '2018'
   zLffeY8AAAAJ:WwIwg2wKZ0QC:
-    citations: 11
+    citations: 12
     title: Central cohesion gradual hashing for remote sensing image retrieval
     year: '2023'
   zLffeY8AAAAJ:X0DADzN9RKwC:
@@ -318,15 +318,15 @@ papers:
     title: Distributed Parallel Hyperspectral Unmixing for Large-Scale Data in Spark Environments via Geometric Distance
     year: '2025'
   zLffeY8AAAAJ:Y9VhQm-5nPIC:
-    citations: 0
+    citations: 1
     title: 'PIDLF+: A Novel Adaptive PIDLF for Forestry Height Mapping Based on Single Baseline PolInSAR Data'
     year: '2025'
   zLffeY8AAAAJ:YB4bud6kWLwC:
-    citations: 44
+    citations: 45
     title: 'U-IMG2DSM: Unpaired simulation of digital surface models with generative adversarial networks'
     year: '2020'
   zLffeY8AAAAJ:YPNY0knpFBYC:
-    citations: 13
+    citations: 14
     title: Hyperspectral image analysis using cloud-based support vector machines
     year: '2024'
   zLffeY8AAAAJ:YTuZlYwrTOUC:
@@ -342,7 +342,7 @@ papers:
     title: Open multi-processing acceleration for unsupervised land cover categorization using probabilistic latent semantic analysis
     year: '2019'
   zLffeY8AAAAJ:__bU50VfleQC:
-    citations: 292
+    citations: 295
     title: Feature extraction with multiscale covariance maps for hyperspectral image classification
     year: '2018'
   zLffeY8AAAAJ:_tF6a-HnqWAC:
@@ -354,15 +354,15 @@ papers:
     title: 'QSphericalStats: enhancing geospatial analysis with spherical statistical insights in QGIS'
     year: '2026'
   zLffeY8AAAAJ:aEW5N-EHWIMC:
-    citations: 1
+    citations: 2
     title: Deep shared proxy construction hashing for cross-modal remote sensing image fast target retrieval
     year: '2024'
   zLffeY8AAAAJ:bVQMTfhMCi4C:
-    citations: 101
+    citations: 115
     title: 'Cross hyperspectral and LiDAR attention transformer: An extended self-attention for land use and land cover classification'
     year: '2024'
   zLffeY8AAAAJ:c1e4I3QdEKYC:
-    citations: 129
+    citations: 132
     title: Remote sensing single-image superresolution based on a deep compendium model
     year: '2019'
   zLffeY8AAAAJ:c59VksA5Vz4C:
@@ -398,11 +398,11 @@ papers:
     title: A Novel Spectral-Spatial Attention Network for Zero-Shot Pansharpening
     year: '2025'
   zLffeY8AAAAJ:ghEM2AJqZyQC:
-    citations: 146
+    citations: 147
     title: Cloud implementation of the K-means algorithm for hyperspectral image analysis
     year: '2017'
   zLffeY8AAAAJ:hGdtkIFZdKAC:
-    citations: 47
+    citations: 48
     title: Rotation equivariant convolutional neural networks for hyperspectral image classification
     year: '2020'
   zLffeY8AAAAJ:hNSvKAmkeYkC:
@@ -430,7 +430,7 @@ papers:
     title: "Heterogeneous gradient computing optimization for scalable deep neural networks: S. Moreno-\xC1lvarez et al."
     year: '2022'
   zLffeY8AAAAJ:jlhcAiayVhoC:
-    citations: 44
+    citations: 45
     title: A new deep convolutional network for effective hyperspectral unmixing
     year: '2022'
   zLffeY8AAAAJ:jmjb1lOE9QIC:
@@ -438,7 +438,7 @@ papers:
     title: A recommendation system for electronic health records in the context of the HOPE project
     year: '2021'
   zLffeY8AAAAJ:jtI9f0ekYq0C:
-    citations: 30
+    citations: 32
     title: Endmember estimation with maximum distance analysis
     year: '2021'
   zLffeY8AAAAJ:kUhpeDhEZMUC:
@@ -446,11 +446,11 @@ papers:
     title: "implementaci\xF3n Cloud para un clasificador neuronal aplicado a im\xE1genes hiperespectrales"
     year: '2020'
   zLffeY8AAAAJ:lYAcb2jw7qUC:
-    citations: 118
+    citations: 120
     title: "Generative adversarial minority oversampling for spectral\u2013spatial hyperspectral image classification"
     year: '2021'
   zLffeY8AAAAJ:lbI08cpqPnQC:
-    citations: 3
+    citations: 4
     title: Cerebral ischemia detection using deep learning techniques
     year: '2025'
   zLffeY8AAAAJ:lg2tdxc6qMwC:
@@ -458,7 +458,7 @@ papers:
     title: 'QCircularStats: a QGIS-plugin for evaluation bidimensional data by circular statistics'
     year: '2023'
   zLffeY8AAAAJ:mel-f30kHHgC:
-    citations: 23
+    citations: 24
     title: "Training deep neural networks: a static load balancing approach: S. Moreno-\xC1lvarez et al."
     year: '2020'
   zLffeY8AAAAJ:n3vGvpFsckwC:
@@ -482,7 +482,7 @@ papers:
     title: 'Decentralized Mechanism for Edge Node Allocation in Access Network: An Experimental Evaluation'
     year: '2024'
   zLffeY8AAAAJ:ndLnGcHYRF0C:
-    citations: 3
+    citations: 4
     title: Cloud implementation of extreme learning machine for hyperspectral image classification
     year: '2023'
   zLffeY8AAAAJ:nqdriD65xNoC:
@@ -510,7 +510,7 @@ papers:
     title: Bi-Dimensional Vector Data Analysis of Positional Accuracy of Landsat-8 Image with Pycircularstats
     year: '2022'
   zLffeY8AAAAJ:qE4H1tSSYIIC:
-    citations: 211
+    citations: 214
     title: A new deep generative network for unsupervised remote sensing single-image super-resolution
     year: '2018'
   zLffeY8AAAAJ:qjMakFHDy7sC:
@@ -530,7 +530,7 @@ papers:
     title: "B\xFAsqueda autom\xE1tica de arquitecturas profundas para imagen hiperespectrales"
     year: '2020'
   zLffeY8AAAAJ:s9ia6_kGH2AC:
-    citations: 60
+    citations: 62
     title: A new GPU implementation of support vector machines for fast hyperspectral image classification
     year: '2020'
   zLffeY8AAAAJ:t-hv7AR41mYC:
@@ -538,7 +538,7 @@ papers:
     title: "Minimization of Delta-v for Satellite Swarm Maintenance Using a Virtual Chief..... C. Lippe and S. D\u2019Amico 197"
     year: Unknown Year
   zLffeY8AAAAJ:tHtfpZlB6tUC:
-    citations: 128
+    citations: 131
     title: Deep&dense convolutional neural network for hyperspectral image classification
     year: '2018'
   zLffeY8AAAAJ:u-x6o8ySG0sC:
@@ -582,7 +582,7 @@ papers:
     title: Analysis and Detection of Melanoma through Collective Intelligence with AI
     year: '2024'
   zLffeY8AAAAJ:xm0LlTxljI0C:
-    citations: 25
+    citations: 26
     title: Background-guided deformable convolutional autoencoder for hyperspectral anomaly detection
     year: '2023'
   zLffeY8AAAAJ:xyvS_IvSCKsC:
@@ -594,7 +594,7 @@ papers:
     title: Adapting Kernels for Hyperspectral Image Classification
     year: '2021'
   zLffeY8AAAAJ:yeL6HyUMUGUC:
-    citations: 4
+    citations: 5
     title: Deep unrolling network with active dictionary learning for hyperspectral anomaly detection
     year: '2023'
   zLffeY8AAAAJ:z6xuaG2dYH0C:
