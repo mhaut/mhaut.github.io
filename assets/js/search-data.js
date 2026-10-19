@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Publications in reversed chronological order.",
+          description: "Journal articles and conference contributions in reverse chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -39,446 +39,46 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "Academic appointments, education, research and professional service.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
+        },{id: "news-juan-m-haut-received-the-university-of-extremadura-research-excellence-award-for-young-researchers-in-the-technical-field-from-the-2021-awards-round-the-award-ceremony-took-place-on-28-january-2022",
+          title: 'Juan M. Haut received the University of Extremadura Research Excellence Award for young...',
           description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+          section: "News",},{id: "news-rat-eos-pc-began-on-1-september-2023-developing-early-warning-networks-for-climate-risks-using-earth-observation-the-project-is-co-funded-by-the-eu-through-interreg-spain-portugal-poctep-and-runs-until-31-december-2026-see-the-project-description",
+          title: 'RAT_EOS_PC began on 1 September 2023, developing early-warning networks for climate risks using...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-oasis-a-research-project-on-sustainable-ai-for-hyperspectral-remote-sensing-began-on-1-september-2024-project-pid2023-149880na-i00-is-funded-by-miciu-aei-and-feder-eu-and-runs-until-31-december-2027-as-detailed-in-the-university-of-extremadura-s-project-documentation",
+          title: 'OASIS, a research project on sustainable AI for hyperspectral remote sensing, began on...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-zhaoyue-wu-defended-a-phd-thesis-on-efficient-hyperspectral-image-processing-and-anomaly-detection-at-the-university-of-extremadura-supervised-by-juan-m-haut-the-defence-is-listed-in-the-university-s-academic-profile",
+          title: 'Zhaoyue Wu defended a PhD thesis on efficient hyperspectral image processing and anomaly...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
-            },},{id: "teachings-data-science-fundamentals",
-          title: 'Data Science Fundamentals',
-          description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
-            },},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
-            },},{
+          section: "News",},{id: "news-zhaoyue-wu-received-an-outstanding-doctoral-award-in-the-technical-field-at-the-university-of-extremadura-the-recognition-was-announced-during-the-school-of-doctoral-studies-celebration",
+          title: 'Zhaoyue Wu received an Outstanding Doctoral Award in the technical field at the...',
+          description: "",
+          section: "News",},{id: "news-the-ieee-jstars-special-issue-ai-driven-hyperspectral-remote-sensing-from-algorithms-to-applications-opened-for-submissions-with-juan-m-haut-among-its-guest-editors-the-official-call-for-papers-lists-the-submission-period-as-1-january-30-june-2026",
+          title: 'The IEEE JSTARS special issue AI-Driven Hyperspectral Remote Sensing: From Algorithms to Applications...',
+          description: "",
+          section: "News",},{id: "news-appointment-as-tenured-associate-professor-profesor-titular-de-universidad-at-the-university-of-extremadura-in-the-area-of-computer-architecture-and-technology-the-resolution-of-12-may-2026-was-published-in-the-boe-on-23-may-2026",
+          title: 'Appointment as Tenured Associate Professor (Profesor Titular de Universidad) at the University of...',
+          description: "",
+          section: "News",},{id: "news-in-2026-juan-m-haut-joined-remote-sensing-as-an-associate-editor-he-has-also-served-as-guest-editor-of-multiple-special-issues",
+          title: 'In 2026, Juan M. Haut joined Remote Sensing as an Associate Editor. He...',
+          description: "",
+          section: "News",},{id: "news-as-of-october-2026-juan-m-haut-serves-as-an-editorial-board-member-of-scientific-reports",
+          title: 'As of October 2026, Juan M. Haut serves as an Editorial Board Member...',
+          description: "",
+          section: "News",},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/juan-m-haut-cv.pdf", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -547,3 +147,20 @@ ninja.data = [{
         setThemeSetting("system");
       },
     },];
+
+/* Jekyll Scholar supplies the same bibliography used on the publications page. */const publicationDocument = new DOMParser().parseFromString("\u003col class=\"bibliography\"\u003e\u003cli\u003e\u003cspan\n  data-publication-key=\"garcia2027scube\"\n  data-publication-title=\"3D-SCube: Information-preserving spatial-spectral rearrangement for hyperspectral semantic segmentation\"\n  data-publication-authors=\"García-Flores, María B. and Cañada-Rostro, Carlos and Paoletti, Mercedes E. and Haut, Juan M.\"\n  data-publication-year=\"2027\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"garcia2026dragon\"\n  data-publication-title=\"DRAGON-BS: A Unified Gradient-Boosted Reinforcement Learning Framework for Interpretable Band Selection\"\n  data-publication-authors=\"García-Flores, María B. and Cañada-Rostro, Carlos and Paoletti, Mercedes E. and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"wang2026knowledge\"\n  data-publication-title=\"Towards knowledge-infused seabed sediment mapping: A semi-supervised framework integrating large language models and knowledge graphs for multibeam data\"\n  data-publication-authors=\"Wang, Haoyi and Chen, Weitao and Li, Xianju and Zhou, Gaodian and Liang, Qianyong and Li, Jun and Paoletti, Mercedes E. and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"franco2026scaling\"\n  data-publication-title=\"Scaling and Validating a Distributed Training and Retraining Pipeline for Network Intrusion Detection\"\n  data-publication-authors=\"Franco-Valiente, José M. and Calle-Cancho, Jesús and Serrano-Martín, Asier and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"fang2026coastal\"\n  data-publication-title=\"Remote Sensing of the Coastal Zone: An ever-growing concern for coastal sustainability\"\n  data-publication-authors=\"Fang, Bo and Zhang, Xiaoxiang and Wang, Lizhe and Kou, Rong and Paoletti, Mercedes E. and Haut, Juan M. and Plaza, Antonio\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"han2026condensed\"\n  data-publication-title=\"Condensed and Discriminative Feature Encoding for Remote Sensing Image Retrieval\"\n  data-publication-authors=\"Han, Lirong and Ge, Youran and Paoletti, Mercedes E. and Moreno-Álvarez, Sergio and Xu, Yinghao and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"calle2026fastattention\"\n  data-publication-title=\"Fast Attention Network approach for traffic classification on next-generation networks\"\n  data-publication-authors=\"Calle-Cancho, Jesús and Jiménez, Luis Ignacio and Haut, Juan M. and Paoletti, Mercedes E. and Cortés-Polo, David\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"franco2026efficiency\"\n  data-publication-title=\"An efficiency-driven anomaly detection pipeline for mobile networks\"\n  data-publication-authors=\"Franco-Valiente, José Miguel and Calle-Cancho, Jesús and Cortés-Polo, David and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"cortes2026transformer\"\n  data-publication-title=\"Transformer-based network for enhanced wireless service differentiation in 6G\"\n  data-publication-authors=\"Cortés-Polo, David and Calle-Cancho, Jesús and Paoletti, Mercedes E. and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"cuartero2026qspherical\"\n  data-publication-title=\"QSphericalStats: enhancing geospatial analysis with spherical statistical insights in QGIS\"\n  data-publication-authors=\"Cuartero, Aurora and Paoletti, Mercedes and Fernández-González, Pablo and Rodriguez, Pablo G. and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"calle2026aidriven\"\n  data-publication-title=\"AI-driven meta-model for cybersecurity in next-generation networks using multilayer Extreme Learning Machine\"\n  data-publication-authors=\"Calle-Cancho, Jesús and Galeano-Brajones, Jesús and Cortés-Polo, David and Paoletti, Mercedes E. and Haut, Juan M.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"zheng2026physics\"\n  data-publication-title=\"A Physics-Guided Diffusion Unmixing Model for Global Lunar Mineral Abundance Mapping\"\n  data-publication-authors=\"Zheng, Pan and Su, Hongjun and Wu, Zhaoyue and Haut, Juan M. and Paoletti, Mercedes E.\"\n  data-publication-year=\"2026\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"canada2025distributed\"\n  data-publication-title=\"Distributed Parallel Hyperspectral Unmixing for Large-Scale Data in Spark Environments via Geometric Distance\"\n  data-publication-authors=\"Cañada, Carlos and Paoletti, Mercedes E. and García-Flores, María B. and Tao, Xuanwen and Pastor-Vargas, Rafael and Haut, Juan M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2025densemixermamba\"\n  data-publication-title=\"DenseMixerMamba: Residual Mixing for Spectral–Spatial Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, Mercedes E. and Wu, Zhaoyue and Zheng, Pan and Hong, Danfeng and Haut, Juan M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"li2025pidlf\"\n  data-publication-title=\"PIDLF+: A Novel Adaptive PIDLF for Forestry Height Mapping Based on Single-Baseline PolInSAR Data\"\n  data-publication-authors=\"Li, Dandan and Lu, Hailiang and Paoletti, Mercedes E. and Haut, Juan M. and Gu, Juntao and Li, Chao and Jing, Weipeng\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"lu2025spectral\"\n  data-publication-title=\"A Novel Spectral-Spatial Attention Network for Zero-Shot Pansharpening\"\n  data-publication-authors=\"Lu, Hailiang and Paoletti, Mercedes E. and Haut, Juan M. and Moreno-Álvarez, Sergio and Chen, Guangsheng and Jing, Weipeng\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"pastor2025cerebral\"\n  data-publication-title=\"Cerebral ischemia detection using deep learning techniques\"\n  data-publication-authors=\"Pastor-Vargas, Rafael and Antón-Munárriz, Cristina and Haut, Juan M. and Robles-Gómez, Antonio and Paoletti, Mercedes E. and Benítez-Andrades, José Alberto\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"wu2025kacnet\"\n  data-publication-title=\"KACNet: Kolmogorov-Arnold Convolution Network for Hyperspectral Anomaly Detection\"\n  data-publication-authors=\"Wu, Zhaoyue and Lu, Hailiang and Paoletti, Mercedes E. and Su, Hongjun and Jing, Weipeng and Haut, Juan M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"ge2025redunet\"\n  data-publication-title=\"REDU-Net: Robust and Efficient Dynamic Unfolding Network for Abundance Estimation\"\n  data-publication-authors=\"Ge, Youran and Han, Lirong and Paoletti, Mercedes E. and Haut, Juan M. and Qu, Gangrong and Plaza, Antonio\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"han2024deep\"\n  data-publication-title=\"Deep shared proxy construction hashing for cross-modal remote sensing image fast target retrieval\"\n  data-publication-authors=\"Han, L. and Paoletti, M.E. and Moreno-Álvarez, S. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"wu2024smcnet\"\n  data-publication-title=\"SMCNet: Sparse-inspired Masked Convolutional Network for Hyperspectral Anomaly Detection\"\n  data-publication-authors=\"Wu, Z. and Paoletti, M.E. and Su, H. and Zheng, P. and Zhang, Z. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"ge2024transformer\"\n  data-publication-title=\"Transformer-Enhanced CNN based on Intensive Feature for Hyperspectral Unmixing\"\n  data-publication-authors=\"Ge, Y. and Han, L. and Paoletti, M.E. and Haut, J.M. and Qu, G.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"calle2024decentralized\"\n  data-publication-title=\"Decentralized Mechanism for Edge Node Allocation in Access Network: An Experimental Evaluation\"\n  data-publication-authors=\"Calle, J. and Cañada, C. and Pastor-Vargas, R. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2024cloud\"\n  data-publication-title=\"Hyperspectral Image Analysis Using Cloud-Based Support Vector Machines\"\n  data-publication-authors=\"Haut, J.M. and Franco-Valiente, J.M. and Paoletti, M.E. and Moreno-Álvarez, S. and Pardo-Diaz, A.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2024federated\"\n  data-publication-title=\"Federated Learning Meets Remote Sensing\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Sanchez-Fernandez, A.J. and Rico-Gallego, J.A. and Han, L. and Haut, J.M.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"roy2024cross\"\n  data-publication-title=\"Cross Hyperspectral and LiDAR Attention Transformer: An Extended Self-Attention for Land Use and Land Cover Classification\"\n  data-publication-authors=\"Roy, S.K. and Sukul, A. and Jamali, A. and Haut, J.M. and Ghamisi, P.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"han2024hash\"\n  data-publication-title=\"Hash-based Remote Sensing Image Retrieval\"\n  data-publication-authors=\"Han, L. and Paoletti, M.E. and Tao, X. and Wu, Z. and Haut, J.M. and Li, P. and Pastor-Vargas, R. and Plaza, A.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tao2024abundance\"\n  data-publication-title=\"An Abundance-Guided Attention Network for Hyperspectral Unmixing\"\n  data-publication-authors=\"Tao, X. and Paoletti, M.E. and Wu, Z. and Haut, J.M. and Ren, P. and Plaza, A.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"han2024hashing\"\n  data-publication-title=\"Hashing for Retrieving Long-tailed Distributed Remote Sensing Images\"\n  data-publication-authors=\"Han, L. and Paoletti, M.E. and Moreno-Álvarez, S. and Haut, J.M. and Pastor-Vargas, R. and Plaza, A.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2023cloudoil\"\n  data-publication-title=\"Cloud-Based Analysis of Large-Scale Hyperspectral Imagery for Oil Spill Detection\"\n  data-publication-authors=\"Haut, J.M. and Moreno-Álvarez, S. and Pastor-Vargas, R. and Perez-Garcia, A. and Paoletti, M.E.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"wu2023background\"\n  data-publication-title=\"Background-guided Deformable Convolutional Autoencoder for Hyperspectral Anomaly Detection\"\n  data-publication-authors=\"Wu, Z. and Paoletti, M.E. and Su, H. and Tao, X. and Han, L. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2023enhancing\"\n  data-publication-title=\"Enhancing Distributed Neural Network Training through Node-Based Communications\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Cavallaro, G. and Haut, J.M.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"fang2023cit\"\n  data-publication-title=\"CIT: Content-invariant translation with hybrid attention mechanism for unsupervised change detection\"\n  data-publication-authors=\"Fang, B. and Chen, G. and Kou, R. and Paoletti, M.E. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2023cloud\"\n  data-publication-title=\"Cloud Implementation of Extreme Learning Machine for Hyperspectral Image Classification\"\n  data-publication-authors=\"Haut, J.M. and Moreno-Álvarez, S. and Moreno-Avila, E. and Ayma, V.A. and Pastor-Vargas, R. and Paoletti, M.E.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2023parameter\"\n  data-publication-title=\"Parameter-Free Attention Network for Spectral-Spatial Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Tao, X. and Han, L. and Wu, Z. and Moreno-Álvarez, S. and Roy, S.K. and Plaza, A. and Haut, J.M.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"perez2023spectral\"\n  data-publication-title=\"Novel Spectral Loss Function for Unsupervised Hyperspectral Image Segmentation\"\n  data-publication-authors=\"Pérez-García, Á. and Paoletti, M.E. and Haut, J.M. and López, J.F.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2023survey\"\n  data-publication-title=\"A Comprehensive Survey of Imbalance Correction Techniques for Hyperspectral Data Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Mogollón, O. and Moreno-Álvarez, S. and Sancho, J.C. and Haut, J.M.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2023aatt\"\n  data-publication-title=\"AAtt-CNN: Automatic Attention-Based Convolutional Neural Networks for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Moreno-Álvarez, S. and Xue, Y. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"cuartero2023qcircular\"\n  data-publication-title=\"QCircularStats: A QGIS-Plugin for Evaluation Bidimensional Data by Circular Statistics\"\n  data-publication-authors=\"Cuartero, A. and Paoletti, M.E. and Garcia-Rodriguez, P. and Haut, J.M.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"han2023central\"\n  data-publication-title=\"Central Cohesion Gradual Hashing for Remote Sensing Image Retrieval\"\n  data-publication-authors=\"Han, L. and Paoletti, M.E. and Tao, X. and Wu, Z. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"roy2023spectral\"\n  data-publication-title=\"Spectral-Spatial Morphological Attention Transformer for Hyperspectral Image Classification\"\n  data-publication-authors=\"Roy, S.K. and Deria, A. and Shah, C. and Haut, J.M. and Du, Q. and Plaza, A.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2022heterogeneous\"\n  data-publication-title=\"Heterogeneous gradient computing optimization for scalable deep neural networks\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Rico-Gallego, J.A. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tao2022new\"\n  data-publication-title=\"A New Deep Convolutional Network for Effective Hyperspectral Unmixing\"\n  data-publication-authors=\"Tao, X. and Paoletti, M.E. and Han, L. and Wu, Z. and Ren, P. and Plaza, J. and Plaza, A. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"hendrix2022training\"\n  data-publication-title=\"On Training Set Selection in Spatial Deep Learning\"\n  data-publication-authors=\"Hendrix, E.M.T. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"wu2022relaxed\"\n  data-publication-title=\"Hyperspectral Anomaly Detection With Relaxed Collaborative Representation\"\n  data-publication-authors=\"Wu, Z. and Su, H. and Tao, X. and Han, L. and Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2022balanced\"\n  data-publication-title=\"Remote Sensing Image Classification Using CNNs With Balanced Gradient for Distributed Heterogeneous Computing\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Cavallaro, G. and Rico, J.A. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tao2022fast\"\n  data-publication-title=\"Fast Orthogonal Projection for Hyperspectral Unmixing\"\n  data-publication-authors=\"Tao, X. and Paoletti, M.E. and Han, L. and Haut, J.M. and Ren, P. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"garcia2022efficient\"\n  data-publication-title=\"Efficient Semantic Segmentation of Hyperspectral Images Using Adaptable Rectangular Convolution\"\n  data-publication-authors=\"Garcia, J.L. and Paoletti, M.E. and Jimenez, L.I. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tao2022endmember\"\n  data-publication-title=\"Endmember Estimation from Hyperspectral Images Using Geometric Distances\"\n  data-publication-authors=\"Tao, X. and Paoletti, M.E. and Haut, J.M. and Han, L. and Ren, P. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2022multiple\"\n  data-publication-title=\"Multiple Attention-Guided Capsule Networks for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Moreno-Álvarez, S. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2022separable\"\n  data-publication-title=\"Separable Attention Network in Single- And Mixed-Precision Floating Point for Land-Cover Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Alipour-Fard, T. and Roy, S.K. and Hendrix, E.M.T. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"roy2022gamo\"\n  data-publication-title=\"Generative Adversarial Minority Oversampling for Spectral-Spatial Hyperspectral Image Classification\"\n  data-publication-authors=\"Roy, S.K. and Haut, J.M. and Paoletti, M.E. and Dubey, S.R. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2022gpu\"\n  data-publication-title=\"GPU-Friendly Neural Networks for Remote Sensing Scene Classification\"\n  data-publication-authors=\"Haut, J.M. and Alcolea, A. and Paoletti, M.E. and Plaza, J. and Resano, J. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2021ghostnet\"\n  data-publication-title=\"GhostNet for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Pereira, N.S. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2021adaptable\"\n  data-publication-title=\"Adaptable convolutional network for hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2021distributed\"\n  data-publication-title=\"Distributed Deep Learning for Remote Sensing Data Interpretation\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Moreno-Álvarez, S. and Plaza, J. and Rico-Gallego, J.A. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2021mixed\"\n  data-publication-title=\"Deep mixed precision for hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Tao, X. and Haut, J.M. and Moreno-Álvarez, S. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2021uimg\"\n  data-publication-title=\"U-IMG2DSM: Unpaired Simulation of Digital Surface Models with Generative Adversarial Networks\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Ghamisi, P. and Yokoya, N. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2021flop\"\n  data-publication-title=\"FLOP-Reduction through Memory Allocations within CNN for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2021heterogeneous\"\n  data-publication-title=\"Heterogeneous Model Parallelism for Deep Neural Networks\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Haut, J.M. and Paoletti, M.E. and Rico-Gallego, J.A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"alipour2021multibranch\"\n  data-publication-title=\"Multibranch Selective Kernel Networks for Hyperspectral Image Classification\"\n  data-publication-authors=\"Alipour-Fard, T. and Paoletti, M.E. and Haut, J.M. and Arefi, H. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tao2021endmember\"\n  data-publication-title=\"Endmember estimation with maximum distance analysis\"\n  data-publication-authors=\"Tao, X. and Paoletti, M.E. and Haut, J.M. and Ren, P. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tobarra2021iot\"\n  data-publication-title=\"Analyzing the users’ acceptance of an IoT cloud platform using the UTAUT/TAM model\"\n  data-publication-authors=\"Tobarra, L. and Haut, J.M. and Hernández, R. and Pastor-Vargas, R. and Robles-Gómez, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"roy2021morphological\"\n  data-publication-title=\"Morphological Convolutional Neural Networks for Hyperspectral Image Classification\"\n  data-publication-authors=\"Roy, S.K. and Mondal, R. and Paoletti, M.E. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"roy2021sicodef\"\n  data-publication-title=\"SiCoDeF2 Net: Siamese Convolution Deconvolution Feature Fusion Network for One-Shot Classification\"\n  data-publication-authors=\"Roy, S.K. and Kar, P. and Paoletti, M.E. and Haut, J.M. and Pastor-Vargas, R. and Robles-Gómez, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"redondo2021social\"\n  data-publication-title=\"Analysis of Remotely Sensed Images through Social Media\"\n  data-publication-authors=\"Redondo, A. and Haut, J.M. and Paoletti, M.E. and Tao, X. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2020training\"\n  data-publication-title=\"Training deep neural networks: a static load balancing approach\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Haut, J.M. and Paoletti, M.E. and Rico-Gallego, J.A. and Díaz-Martín, J.C. and Plaza, J.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2020scalable\"\n  data-publication-title=\"Scalable recurrent neural network for hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2020neighboring\"\n  data-publication-title=\"Neighboring Region Dropout for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2020gpusvm\"\n  data-publication-title=\"A new GPU implementation of support vector machines for fast hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Tao, X. and Miguel, J.P. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"maffei2020single\"\n  data-publication-title=\"A Single Model CNN for Hyperspectral Image Denoising\"\n  data-publication-authors=\"Maffei, A. and Haut, J.M. and Paoletti, M.E. and Plaza, J. and Bruzzone, L. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2020neural\"\n  data-publication-title=\"Neural Ordinary Differential Equations for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"alcolea2020inference\"\n  data-publication-title=\"Inference in supervised spectral classifiers for on-board hyperspectral imaging: An overview\"\n  data-publication-authors=\"Alcolea, A. and Paoletti, M.E. and Haut, J.M. and Resano, J. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2020rotation\"\n  data-publication-title=\"Rotation equivariant convolutional neural networks for hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Roy, S.K. and Hendrix, E.M.T.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2020cloudmnlr\"\n  data-publication-title=\"Cloud Implementation of Multinomial Logistic Regression for UAV Hyperspectral Images\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2019cloud\"\n  data-publication-title=\"Cloud Deep Networks for Hyperspectral Image Analysis\"\n  data-publication-authors=\"Haut, J.M. and Gallardo, J.A. and Paoletti, M.E. and Cavallaro, G. and Plaza, J. and Plaza, A. and Riedel, M.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2019review\"\n  data-publication-title=\"Deep Learning Classifiers for Hyperspectral Imaging: A Review\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2019occlusion\"\n  data-publication-title=\"Hyperspectral Image Classification Using Random Occlusion Data Augmentation\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A. and Li, J.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2019superresolution\"\n  data-publication-title=\"Remote Sensing Image Superresolution Using Deep Residual Channel Attention\"\n  data-publication-authors=\"Haut, J.M. and Fernandez-Beltran, R. and Paoletti, M.E. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2019visual\"\n  data-publication-title=\"Visual Attention-Driven Hyperspectral Image Classification\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A. and Li, J.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2019compendium\"\n  data-publication-title=\"Remote sensing single-image superresolution based on a deep compendium model\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Fernandez-Beltran, R. and Plaza, J. and Plaza, A. and Li, J.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"gallardo2019gpu\"\n  data-publication-title=\"GPU Parallel Implementation of Dual-Depth Sparse Probabilistic Latent Semantic Analysis for Hyperspectral Unmixing\"\n  data-publication-authors=\"Gallardo, J.A. and Paoletti, M.E. and Haut, J.M. and Fernandez-Beltran, R. and Plaza, A. and Plaza, J.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2019lowpower\"\n  data-publication-title=\"Low-High-Power Consumption Architectures for Deep-Learning Models Applied to Hyperspectral Image Classification\"\n  data-publication-authors=\"Haut, J.M. and Bernabé, S. and Paoletti, M.E. and Fernandez-Beltran, R. and Plaza, A. and Plaza, J.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2019capsule\"\n  data-publication-title=\"Capsule Networks for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Fernandez-Beltran, R. and Plaza, J. and Plaza, A. and Li, J. and Pla, F.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2019pyramidal\"\n  data-publication-title=\"Deep Pyramidal Residual Networks for Spectral-Spatial Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Fernandez-Beltran, R. and Plaza, J. and Plaza, A.J. and Pla, F.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"he2019feature\"\n  data-publication-title=\"Feature Extraction with Multiscale Covariance Maps for Hyperspectral Image Classification\"\n  data-publication-authors=\"He, N. and Paoletti, M.E. and Haut, J.M. and Fang, L. and Li, S. and Plaza, A. and Plaza, J.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2019comparative\"\n  data-publication-title=\"A comparative study of techniques for hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2018generative\"\n  data-publication-title=\"A new deep generative network for unsupervised remote sensing single-image super-resolution\"\n  data-publication-authors=\"Haut, J.M. and Fernandez-Beltran, R. and Paoletti, M.E. and Plaza, J. and Plaza, A. and Pla, F.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2018active\"\n  data-publication-title=\"Active learning with convolutional neural networks for hyperspectral image classification using a new Bayesian approach\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Li, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2018newdeep\"\n  data-publication-title=\"A new deep convolutional neural network for fast hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2018elm\"\n  data-publication-title=\"Fast dimensionality reduction and classification of hyperspectral images with extreme learning machines\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2018deep\"\n  data-publication-title=\"Deep and Dense convolutional neural network for hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"fernandez2018multimodal\"\n  data-publication-title=\"Multimodal probabilistic latent semantic analysis for Sentinel-1 and Sentinel-2 image fusion\"\n  data-publication-authors=\"Fernandez-Beltran, R. and Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A. and Pla, F.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"fernandez2018hierarchical\"\n  data-publication-title=\"Remote Sensing Image Fusion Using Hierarchical Multimodal Probabilistic Latent Semantic Analysis\"\n  data-publication-authors=\"Fernandez-Beltran, R. and Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A. and Pla, F.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2017cloud\"\n  data-publication-title=\"Cloud implementation of the K-means algorithm for hyperspectral image analysis\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2017\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"garciaflores2025igarss\"\n  data-publication-title=\"Efficient Hyperspectral Band Selection and Classification Based on Actor-Critic Policy\"\n  data-publication-authors=\"García Flores, M.B. and Cañada, C. and Quesada, A. and Paoletti, M.E. and Zheng, H. and Wu, Z. and Su, H. and Haut, J.M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"canada2025whispers\"\n  data-publication-title=\"A Big Data Library for Rice Yield Index Calculations with Apache Spark\"\n  data-publication-authors=\"Cañada Rostro, C. and García Flores, M.B. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"sanchez2025whispers\"\n  data-publication-title=\"Accelerating 3D Convolutions for Hyperspectral Image Analysis Using Triton on GPUs\"\n  data-publication-authors=\"Sánchez Calza, B. and Cañada Rostro, C. and García Flores, M.B. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"garciaflores2025whispers\"\n  data-publication-title=\"Self-Supervised Quantization-Aware Knowledge Distillation for 3D CNNs in Hyperspectral Image Classification\"\n  data-publication-authors=\"García Flores, M.B. and Paoletti, M.E. and Haut, J.M. and Cañada Rostro, C.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"franco2025icai\"\n  data-publication-title=\"A Decentralised and Scalable Approach for Intrusion Detection in Cybersecurity Networks\"\n  data-publication-authors=\"Franco Valiente, J.M. and Calle Cancho, J. and Cañada Rostro, C. and Haut, J.M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2024igarss\"\n  data-publication-title=\"Correlation-aware Averaging for Federated Learning in Remote Sensing Data Classification\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Han, L. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"han2024igarss\"\n  data-publication-title=\"Deep Robust Hashing Using Self-Distillation for Remote Sensing Image Retrieval\"\n  data-publication-authors=\"Han, L. and Paoletti, M.E. and Moreno-Álvarez, S. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"zheng2024igarss\"\n  data-publication-title=\"Typical Mineral Abundance Estimation of Chang’e-3 Yutu Rover with Hyperspectral Data Based on Diffusion Autoencoder Unmixing Model\"\n  data-publication-authors=\"Zheng, P. and Wu, Z. and Paoletti, M.E. and Haut, J.M. and Hu, J. and Su, H.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"wu2023whispers\"\n  data-publication-title=\"Deep Unrolling Network with Active Dictionary Learning for Hyperspectral Anomaly Detection\"\n  data-publication-authors=\"Wu, Z. and Tao, X. and Paoletti, M.E. and Haut, J.M. and Pastor-Vargas, R. and Plaza, A.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"anton2023cerebral\"\n  data-publication-title=\"Detection of cerebral ischaemia using transfer learning techniques\"\n  data-publication-authors=\"Antón-Munárriz, C. and Pastor-Vargas, R. and Haut, J.M. and Robles-Gómez, A. and Paoletti, M.E. and Benítez-Andrades, J.A.\"\n  data-publication-year=\"2023\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"cuartero2022pycircular\"\n  data-publication-title=\"PyCircularStats: A Python-Based Tool for Remote Sensing Circular Statistics and Graphical Analysis\"\n  data-publication-authors=\"Cuartero, A. and Paoletti, M.E. and Garcia-Rodriguez, P. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2022optimizing\"\n  data-publication-title=\"Optimizing Distributed Deep Learning in Heterogeneous Computing Platforms for Remote Sensing Data Classification\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Rico, J.A. and Cavallaro, G. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"wu2022adaptive\"\n  data-publication-title=\"Adaptive Dictionary Construction for Hyperspectral Anomaly Detection Based on Collaborative Representation\"\n  data-publication-authors=\"Wu, Z. and Su, H. and Tao, X. and Han, L. and Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tao2022unmixing3d\"\n  data-publication-title=\"A New 3D Convolution Network for Hyperspectral Unmixing\"\n  data-publication-authors=\"Tao, X. and Paoletti, M.E. and Han, L. and Wu, Z. and Jimenez, L.I. and Haut, J.M. and Ren, P. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"cuartero2022bidimensional\"\n  data-publication-title=\"Bi-Dimensional Vector Data Analysis of Positional Accuracy of Landsat-8 Image with PyCircularStats\"\n  data-publication-authors=\"Cuartero, A. and Paoletti, M.E. and Presas, A.R. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2022inverted\"\n  data-publication-title=\"Deep Attention-Driven HSI Scene Classification Based on Inverted Dot-Product\"\n  data-publication-authors=\"Paoletti, M.E. and Tao, X. and Han, L. and Wu, Z. and Moreno-Álvarez, S. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"pereira2021evaluation\"\n  data-publication-title=\"On the Evaluation of Machine Learning Algorithms for HSI Classification on a Heterogeneous Computing Device\"\n  data-publication-authors=\"Pereira, N. and Plaza, J. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"gonzalez2021hope\"\n  data-publication-title=\"A recommendation system for electronic health records in the context of the HOPE project\"\n  data-publication-authors=\"González, R.V. and Robles-Gómez, A. and Pastor-Vargas, R. and Haut, J.M. and others\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tobarra2021studying\"\n  data-publication-title=\"Studying the students’ learning in LoT@UNED\"\n  data-publication-authors=\"Tobarra, L. and Robles-Gómez, A. and Pastor-Vargas, R. and Hernández, R. and Haut, J.M.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"roy2021maxmin\"\n  data-publication-title=\"A New Max-Min Convolutional Network for Hyperspectral Image Classification\"\n  data-publication-authors=\"Roy, S.K. and Paoletti, M.E. and Haut, J.M. and Hendrix, E.M.T. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"tao2021multiple\"\n  data-publication-title=\"Multiple Incremental Kernel Convolution for Land Cover Classification of Remotely Sensed Images\"\n  data-publication-authors=\"Tao, X. and Han, L. and Paoletti, M.E. and Roy, S.K. and Plaza, J. and Haut, J.M. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2021adapting\"\n  data-publication-title=\"Adapting Kernels for Hyperspectral Image Classification\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Pastor-Vargas, R. and Tobarra, L. and Robles-Gómez, A. and Hernández, R. and Hendrix, E.M.T. and Li, J.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2021cmmse\"\n  data-publication-title=\"Cloud Deep Convolutional Neural Network for Hyperspectral Image Analysis\"\n  data-publication-authors=\"Paoletti, M.E. and Franco, J.M. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2021cloudsvm\"\n  data-publication-title=\"Hyperspectral Image Analysis with Cloud SVM\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Moreno-Álvarez, S. and Franco, J.M. and Pardo, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"pereira2021finnish\"\n  data-publication-title=\"Single Board Computers for Efficient On-Board Multispectral Image Processing\"\n  data-publication-authors=\"Pereira, N.S.A. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2020training\"\n  data-publication-title=\"Training Capsnets via Active Learning for Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2020cmmse\"\n  data-publication-title=\"Efficient Networks for Remote Sensing Image Processing\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2020\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"maffei2019denoising\"\n  data-publication-title=\"Efficient Convolutional Neural Network for Spectral-Spatial Hyperspectral Denoising\"\n  data-publication-authors=\"Maffei, A. and Haut, J.M. and Paoletti, M.E. and Plaza, J. and Bruzzone, L. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2019ode\"\n  data-publication-title=\"Solving Deep Neural Networks with Ordinary Differential Equations for Remotely Sensed Hyperspectral Image Classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"bernabe2019open\"\n  data-publication-title=\"Open Multi-Processing Acceleration for Unsupervised Land Cover Categorization Using Probabilistic Latent Semantic Analysis\"\n  data-publication-authors=\"Bernabé, S. and García, C. and Fernandez-Beltran, R. and Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"liu2019active\"\n  data-publication-title=\"Accessibility-Free Active Learning for Hyperspectral Image Classification\"\n  data-publication-authors=\"Liu, C. and Li, J. and Paoletti, M.E. and Haut, J.M. and Plaza, A. and Shi, Q.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2019exploring\"\n  data-publication-title=\"Exploring Distributed Deep Network Training Accuracy and Performance on Heterogeneous Clusters\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Haut, J.M. and Rico, J.A. and Plaza, J. and Díaz-Martín, J.C.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2019scalable_cmmse\"\n  data-publication-title=\"Scalable Recurrent Neural Network for Spectral-Spatial Classification of Hyperspectral Images\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2018evaluation\"\n  data-publication-title=\"Evaluation of different regularization methods for the extreme learning machine applied to hyperspectral images\"\n  data-publication-authors=\"Haut, J.M. and Liu, Y. and Paoletti, M.E. and Xu, X. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2018selfnorm\"\n  data-publication-title=\"An investigation on self-normalized deep neural networks for hyperspectral image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2018intersensor\"\n  data-publication-title=\"Inter-sensor regression analysis for operational Sentinel-2 and Sentinel-3 data products\"\n  data-publication-authors=\"Haut, J.M. and Fernandez-Beltran, R. and Paoletti, M.E. and Plaza, J. and Plaza, A. and Pla, F.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2018med\"\n  data-publication-title=\"Cloud Computing Implementation of a Neural Classifier for Remotely Sensed Hyperspectral Images\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2017multicore\"\n  data-publication-title=\"Multicore implementation of the multi-scale adaptive deep pyramid matching model for remotely sensed image classification\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A. and Liu, Q. and Hang, R.\"\n  data-publication-year=\"2017\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"penalver2017onboard\"\n  data-publication-title=\"Onboard payload-data dimensionality reduction\"\n  data-publication-authors=\"Penalver, M. and DelFrate, F. and Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2017\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2017logistic_cmmse\"\n  data-publication-title=\"Cloud Implementation of Logistic Regression for Hyperspectral Image Classification\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Paz-Gallardo, A. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2017\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2017yinyang\"\n  data-publication-title=\"Yinyang K-means Clustering for Hyperspectral Image Analysis\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2017\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2016navigation\"\n  data-publication-title=\"A navigation agent for mobile manipulators\"\n  data-publication-authors=\"Haut, J.M. and Manso, L. and Gallego, D. and Paoletti, M.E. and Bustos, P. and Bandera, A. and Romero-Garcés, A.\"\n  data-publication-year=\"2016\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2016kmeans_cmmse\"\n  data-publication-title=\"Cloud Implementation of the K-Means Algorithm for Hyperspectral Image Analysis\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2016\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2015code2bot\"\n  data-publication-title=\"Code2bot, a social robot for the classroom\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Bustos, P. and García, N.\"\n  data-publication-year=\"2015\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"sanchez2025triton\"\n  data-publication-title=\"Aceleración de Operaciones Convolucionales en GPU mediante Triton\"\n  data-publication-authors=\"Sánchez Calza, B. and Cañada Rostro, C. and García Flores, M.B. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"canada2025sarteco\"\n  data-publication-title=\"Implementación Paralela y Distribuida de Desmezclado Hiperespectral Usando Distancias Geométricas\"\n  data-publication-authors=\"Cañada Rostro, C. and García Flores, M.B. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"quesada2025sarteco\"\n  data-publication-title=\"Monitorización del Rendimiento Computacional y la Eficiencia Energética en Deep Learning\"\n  data-publication-authors=\"Quesada, A. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2025\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"canada2024sarteco\"\n  data-publication-title=\"Desarrollo de una Implementación Distribuida en el Framework Hive para Detección de Catástrofes Naturales\"\n  data-publication-authors=\"Cañada Rostro, C. and García Flores, M.B. and Paoletti, M.E. and Guillén, J. and Haut, J.M.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2024sarteco\"\n  data-publication-title=\"Mejora del Entrenamiento de Redes Neuronales Distribuidas a través de Comunicaciones entre Nodos\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2024\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2022cloud_sarteco\"\n  data-publication-title=\"Implementación Cloud del algoritmo MLR para clasificación de imágenes hiperespectrales\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, A. and Plaza, J.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2022x8064\"\n  data-publication-title=\"x8064: Herramienta para el aprendizaje de ensamblador en arquitecturas actuales\"\n  data-publication-authors=\"Moreno-Avila, E. and Jimenez, L.I. and Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2022\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2021sarteco\"\n  data-publication-title=\"Red Recurrente Masivamente Paralela para Clasificación de Imagen Hiperespectral\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2021\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2019doctorales\"\n  data-publication-title=\"Equilibrado del Entrenamiento Distribuido de Redes Neuronales Profundas en Plataformas Heterogéneas\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Haut, J.M. and Rico-Gallego, J.A. and Plaza, J. and Díaz-Martín, J.C.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2019doctorales\"\n  data-publication-title=\"Generación de Modelos Digitales de Elevaciones Sintéticos a través de Redes Profundas Antagónicas\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"moreno2019sarteco\"\n  data-publication-title=\"Evaluación de Rendimiento del Entrenamiento Distribuido de Redes Neuronales Profundas en Plataformas Heterogéneas\"\n  data-publication-authors=\"Moreno-Álvarez, S. and Paoletti, M.E. and Haut, J.M. and Rico-Gallego, J.A. and Plaza, J. and Díaz-Martín, J.C.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"gallardo2019sarteco\"\n  data-publication-title=\"Nueva implementación paralela en GPUs del algoritmo pLSA para desmezclado de imágenes hiperespectrales\"\n  data-publication-authors=\"Gallardo, J.A. and Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"blanco2019sarteco\"\n  data-publication-title=\"Una nueva plataforma social para el procesamiento de imágenes hiperespectrales de manera masiva\"\n  data-publication-authors=\"Blanco, M. and Paoletti, M.E. and Haut, J.M. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"maffei2019sarteco\"\n  data-publication-title=\"Una única arquitectura neuronal profunda para eliminar ruido en imágenes hiperespectrales\"\n  data-publication-authors=\"Maffei, A. and Paoletti, M.E. and Haut, J.M. and Plaza, J. and Bruzzone, L. and Plaza, A.\"\n  data-publication-year=\"2019\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2018sarteco\"\n  data-publication-title=\"Red Neuronal Profunda Distribuida Para Compresión de Imágenes Hiperespectrales\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Gallardo, J.A. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2018\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2017cd\"\n  data-publication-title=\"Competencia Digital\"\n  data-publication-authors=\"Paoletti, M.E. and Haut, J.M. and García, N.\"\n  data-publication-year=\"2017\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"haut2016sarteco\"\n  data-publication-title=\"Evaluación del rendimiento de una implementación Cloud para un clasificador neuronal aplicado a imágenes hiperespectrales\"\n  data-publication-authors=\"Haut, J.M. and Paoletti, M.E. and Plaza, J. and Plaza, A.\"\n  data-publication-year=\"2016\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2016learnbot1\"\n  data-publication-title=\"Learnbot: aprender el pasado con nuevas tecnologías\"\n  data-publication-authors=\"Paoletti, E.X. and Paoletti, M.E. and García, N. and Haut, J.M. and Bustos, P.\"\n  data-publication-year=\"2016\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\n\u003cli\u003e\u003cspan\n  data-publication-key=\"paoletti2016learnbot2\"\n  data-publication-title=\"Learnbot: aprendizaje colaborativo con robots\"\n  data-publication-authors=\"Paoletti, M.E. and Paoletti, E.X. and García, N. and Haut, J.M. and Bustos, P.\"\n  data-publication-year=\"2016\"\n\u003e\u003c/span\u003e\n\u003c/li\u003e\u003c/ol\u003e", 'text/html');
+const escapePublicationTitle = (text) => text.replace(/[&<>"']/g, (character) => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+}[character]));
+const publicationActions = Array.from(publicationDocument.querySelectorAll('[data-publication-key]')).map((entry) => ({
+  id: `publication-${entry.dataset.publicationKey}`,
+  title: escapePublicationTitle(entry.dataset.publicationTitle),
+  description: `${entry.dataset.publicationAuthors} · ${entry.dataset.publicationYear}`,
+  section: 'Publications',
+  handler: () => {
+    const url = new URL("/publications/", window.location.origin);
+    url.hash = entry.dataset.publicationKey;
+    window.location.href = url.href;
+  },
+}));
+ninja.data = [...ninja.data, ...publicationActions];
