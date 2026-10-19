@@ -20,10 +20,10 @@ permissions:
 jobs:
   cv-pdf:
     name: Generate downloadable CV
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -36,7 +36,7 @@ jobs:
       - name: Generate CV
         run: python bin/render_cv_pdf.py
       - name: Upload CV
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: Juan-M-Haut-CV
           path: output/pdf/juan-m-haut-cv.pdf
