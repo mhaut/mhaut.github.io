@@ -1,11 +1,11 @@
 cv:
   name: Juan Mario Haut Hurtado
-  label: Associate Professor (Profesor Titular de Universidad)
+  label: Tenured Associate Professor (Profesor Titular de Universidad)
   email: juanmariohaut@unex.es
   location: Cáceres, Spain
   image: ""
   summary: >
-    Associate Professor (Profesor Titular de Universidad) at the Department of Computer and Communication Technology,
+    Tenured Associate Professor (Profesor Titular de Universidad) at the Department of Computer and Communication Technology,
     University of Extremadura, and member of the Hyperspectral Computing Laboratory (HyperComp). Research focused on
     deep learning for hyperspectral remote sensing, GPU acceleration and distributed computing, with an emphasis on
     computational efficiency. IEEE Senior Member, Chair of the Spanish Chapter of IEEE GRSS, Associate Editor of
@@ -79,7 +79,7 @@ cv:
 
     Experience:
       - company: University of Extremadura
-        position: Profesor Titular de Universidad
+        position: Tenured Associate Professor (Profesor Titular de Universidad)
         location: Cáceres, Spain
         start_date: 2026
         end_date: present
