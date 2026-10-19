@@ -19,7 +19,9 @@ nav_order: 3
   <a href="#noncompetitive"><strong>Non-Competitive Projects & Contracts</strong></a>
 </div>
 
-<h2 id="competitive" style="margin-bottom: 1.5rem;">Competitive Research Projects</h2>
+<h2 id="competitive" style="margin-bottom: 1.5rem;">Selected Competitive Research Projects</h2>
+
+The selection below covers 12 of the 17 competitive projects: six as principal investigator and six as a team member.
 
 ### As Principal Investigator
 

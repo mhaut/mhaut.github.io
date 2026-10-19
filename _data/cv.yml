@@ -1,10 +1,15 @@
 cv:
   name: Juan Mario Haut Hurtado
-  label: Associate Professor
+  label: Associate Professor (Profesor Titular de Universidad)
   email: juanmariohaut@unex.es
   location: Cáceres, Spain
   image: ""
-  summary: Associate Professor (Profesor Contratado Doctor) at the Department of Computer and Communication Technology, University of Extremadura. Member of the Hyperspectral Computing Laboratory (HyperComp). Research focused on deep learning, hyperspectral image processing, GPU/HPC and remote sensing. Senior Member IEEE. President of the Spanish Chapter of IEEE GRSS.
+  summary: >
+    Associate Professor (Profesor Titular de Universidad) at the Department of Computer and Communication Technology,
+    University of Extremadura, and member of the Hyperspectral Computing Laboratory (HyperComp). Research focused on
+    deep learning for hyperspectral remote sensing, GPU acceleration and distributed computing, with an emphasis on
+    computational efficiency. IEEE Senior Member, Chair of the Spanish Chapter of IEEE GRSS, Associate Editor of
+    Remote Sensing, and Editorial Board Member of Scientific Reports. See the [publication list](/publications/) for journal articles and conference contributions.
 
   social_networks:
     - network: GitHub
@@ -74,10 +79,19 @@ cv:
 
     Experience:
       - company: University of Extremadura
+        position: Profesor Titular de Universidad
+        location: Cáceres, Spain
+        start_date: 2026
+        end_date: present
+        summary: Architecture and Computer Technology area. Research in deep learning, hyperspectral remote sensing and high-performance computing. Teaching Arquitecturas Especializadas, Sistemas Multimedia and Computación Paralela in 2026–2027.
+        highlights:
+          - "[Appointment published in the BOE on 23 May 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11076)"
+
+      - company: University of Extremadura
         position: Profesor Contratado Doctor
         location: Cáceres, Spain
         start_date: 2023
-        end_date: present
+        end_date: 2026
         summary: Architecture and Computer Technology area. Teaching Arquitecturas Especializadas, Diseño de Sistemas Operativos, Tecnología de Computadores.
         highlights:
           - "Quality Commission Coordinator for Informatics degrees"
@@ -112,6 +126,13 @@ cv:
         end_date: 2019
         highlights:
           - "Spanish Ministry of Education FPU fellowship"
+
+    Professional Service:
+      - bullet: "Chair of the [Spanish Chapter of IEEE GRSS](https://r8.ieee.org/spain-grss/)."
+      - bullet: "Associate Editor of [Remote Sensing](https://www.mdpi.com/journal/remotesensing) since 2026."
+      - bullet: "Editorial Board Member of [Scientific Reports](https://www.nature.com/srep/editors#Editorial-Board-Members)."
+      - bullet: "Guest Editor of multiple special issues, including [Cutting-Edge Algorithms and Characteristic Geo-Applications with Remote Sensing](https://www.mdpi.com/journal/remotesensing/special_issues/U5C15MR55U)."
+      - bullet: "Editorial service has included Topical Editor for IEEE TGRS and Associate Editor for IEEE GRSL and IEEE J-MASS, as documented in the [University of Extremadura's 2022 research profile](https://comunicacion.unex.es/2022/01/28/investigadores-de-la-uex-reciben-los-premios-a-la-trayectoria-investigadora-y-de-transferencia-de-resultados-de-investigacion-correspondientes-al-ano-2021/)."
 
     Awards:
       - title: Research Excellence Award (Young Researchers, technical field)
@@ -220,7 +241,7 @@ cv:
         highlights:
           - "Deep Learning optimization for sustainable hyperspectral remote sensing"
           - "GPU acceleration and energy efficiency"
-        start_date: 2024-01-09
+        start_date: 2024-09-01
         end_date: 2027-12-31
 
       - name: "RAT_EOS_PC — Early Warning Networks for Climate Risk Remote Sensing"

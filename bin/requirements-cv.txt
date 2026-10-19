@@ -1,0 +1,4 @@
+PyYAML>=6.0,<7
+reportlab>=4.2,<6
+bibtexparser>=2.0,<3
+pylatexenc>=2.10,<3

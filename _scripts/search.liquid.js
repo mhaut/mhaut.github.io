@@ -19,7 +19,7 @@ ninja.data = [
   },
   {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
   {%- for p in sorted_pages -%}
-    {%- if p.nav and p.autogen == null -%}
+    {%- if p.nav and p.autogen == null and p.search != false -%}
       {%- if p.dropdown -%}
         {%- for child in p.children -%}
           {%- unless child.title == 'divider' -%}
@@ -54,6 +54,7 @@ ninja.data = [
   {%- endfor -%}
   {%- if site.posts_in_search -%}
     {%- for post in site.posts -%}
+      {%- unless post.search == false or post.categories contains 'sample-posts' -%}
       {
         {%- assign title = post.title | escape | strip -%}
         id: "post-{{ title | slugify }}",
@@ -76,11 +77,13 @@ ninja.data = [
           {% endif %}
         },
       },
+      {%- endunless -%}
     {%- endfor -%}
   {%- endif -%}
   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
       {%- for item in collection.docs -%}
+        {%- unless item.search == false -%}
         {
           {%- if item.inline -%}
             {%- assign title = item.content | newline_to_br | replace: "<br />", " " | replace: "<br/>", " " | strip_html | strip_newlines | escape | strip -%}
@@ -97,6 +100,7 @@ ninja.data = [
             },
           {%- endunless -%}
         },
+        {%- endunless -%}
       {%- endfor -%}
     {%- endif -%}
   {%- endfor -%}
@@ -339,3 +343,24 @@ ninja.data = [
     },
   {%- endif -%}
 ];
+
+/* Jekyll Scholar supplies the same bibliography used on the publications page. */
+{%- capture publication_index -%}
+  {% bibliography --group_by none --template bib_search_index %}
+{%- endcapture -%}
+const publicationDocument = new DOMParser().parseFromString({{ publication_index | jsonify }}, 'text/html');
+const escapePublicationTitle = (text) => text.replace(/[&<>"']/g, (character) => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+}[character]));
+const publicationActions = Array.from(publicationDocument.querySelectorAll('[data-publication-key]')).map((entry) => ({
+  id: `publication-${entry.dataset.publicationKey}`,
+  title: escapePublicationTitle(entry.dataset.publicationTitle),
+  description: `${entry.dataset.publicationAuthors} · ${entry.dataset.publicationYear}`,
+  section: 'Publications',
+  handler: () => {
+    const url = new URL({{ '/publications/' | relative_url | jsonify }}, window.location.origin);
+    url.hash = entry.dataset.publicationKey;
+    window.location.href = url.href;
+  },
+}));
+ninja.data = [...ninja.data, ...publicationActions];

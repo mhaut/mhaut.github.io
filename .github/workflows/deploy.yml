@@ -17,6 +17,9 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
+      - "bin/render_cv_pdf.py"
+      - "bin/requirements-cv.txt"
+      - "tests/**"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -46,6 +49,9 @@ on:
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
+      - "bin/render_cv_pdf.py"
+      - "bin/requirements-cv.txt"
+      - "tests/**"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -81,6 +87,10 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -90,10 +100,14 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          sudo apt-get update && sudo apt-get install -y imagemagick
+          sudo apt-get update && sudo apt-get install -y imagemagick fonts-dejavu-core
           pip3 install --upgrade nbconvert
+          pip3 install -r bin/requirements-cv.txt
+          python3 bin/render_cv_pdf.py
           export JEKYLL_ENV=production
           bundle exec jekyll build
+      - name: Test publication search
+        run: node --test tests/*.test.cjs
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss

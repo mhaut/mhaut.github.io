@@ -1,6 +1,12 @@
 ---
 ---
-<div class="row">
+<div
+  class="row"
+  data-publication-key="{{ entry.key | escape }}"
+  data-publication-title="{{ entry.title | strip_html | escape }}"
+  data-publication-authors="{{ entry.author | strip_html | escape }}"
+  data-publication-year="{{ entry.year | escape }}"
+>
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -172,14 +178,20 @@
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
-      {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+      {% capture entrytype %}{{ entrytype }} {{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
     {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture periodical -%}
+      {{ entrytype }}
+      {%- if entry.volume %}, {{ entry.volume }}{% if entry.number %}({{ entry.number }}){% endif %}
+      {%- elsif entry.number %}, no. {{ entry.number }}{% endif %}
+      {%- if entry.pages %}, {{ entry.pages | replace: '--', '–' }}{% endif %}
+      {%- if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}
+    {%- endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
@@ -189,6 +201,14 @@
 
     <!-- Links/Buttons -->
     <div class="links">
+      {% assign export_bibtex = entry.bibtex | hideCustomBibtex %}
+      <a
+        href="data:application/x-bibtex;charset=utf-8,{{ export_bibtex | url_encode | replace: '+', '%20' }}"
+        download="{{ entry.key | escape }}.bib"
+        class="btn btn-sm z-depth-0"
+        aria-label="Download BibTeX for {{ entry.title | strip_html | escape }}"
+        >BibTeX</a
+      >
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}Awarded{% endif -%}
@@ -322,7 +342,7 @@
               aria-label="Google Scholar link"
               role="button"
             >
-              {% assign citation_count = 0 %}
+              {% assign citation_count = null %}
               {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
               {% assign publication_key = entry.google_scholar_id %}
 
@@ -330,20 +350,17 @@
                 {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
               {% elsif site.data.citations.papers[publication_key] %}
                 {% assign citation_count = site.data.citations.papers[publication_key].citations %}
-              {% else %}
-                {% for paper in site.data.citations.papers %}
-                  {% assign paper_key = paper[0] %}
-                  {% if paper_key contains entry.google_scholar_id %}
-                    {% assign citation_count = paper[1].citations %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
               {% endif %}
 
-              <img
-                src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{{ citation_count }} Google Scholar citations"
-              >
+              {% if citation_count != null %}
+                <img
+                  src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
+                  alt="{{ citation_count }} Google Scholar citations"
+                >
+                <span class="small text-muted">{{ site.data.citations.metadata.last_updated | date: '%-d %b %Y' }}</span>
+              {% else %}
+                <span class="small">Google Scholar</span>
+              {% endif %}
             </a>
           {% endif %}
           {% if site.enable_publication_badges.inspirehep and entry_has_inspirehep_badge %}

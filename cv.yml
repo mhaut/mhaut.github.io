@@ -35,9 +35,14 @@
 - title: Academic Positions
   type: time_table
   contents:
+    - title: Profesor Titular de Universidad
+      institution: University of Extremadura — Dept. TC2, EPCC
+      year: 2026–
+      description:
+        - "[Appointment published in the BOE on 23 May 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11076)"
     - title: Profesor Contratado Doctor
       institution: University of Extremadura — Dept. TC2, EPCC
-      year: 2023–
+      year: 2023–2026
     - title: Profesor Ayudante Doctor
       institution: University of Extremadura — Dept. TC2
       year: 2021–2023
@@ -88,6 +93,14 @@
     - title: Best Reviewer — IEEE Geoscience and Remote Sensing Letters
       institution: IEEE GRSS
       year: 2018
+
+- title: Professional Service
+  type: list
+  contents:
+    - "Chair of the Spanish Chapter of IEEE GRSS."
+    - "Associate Editor of Remote Sensing since 2026."
+    - "Editorial Board Member of Scientific Reports."
+    - "Guest Editor of multiple special issues."
 
 - title: Accreditations
   type: time_table

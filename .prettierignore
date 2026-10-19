@@ -1,4 +1,8 @@
 **/*.map
+_site/
+.jekyll-cache/
+output/
+tmp/
 **/*.min.css
 **/*.min.js
 assets/css/main.scss

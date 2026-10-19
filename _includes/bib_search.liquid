@@ -1,4 +1,22 @@
 {% if site.bib_search %}
   <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
-  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+  <form id="bibsearch-form" role="search" hidden>
+    <label for="bibsearch">Filter publications by title, author, or year</label>
+    <div class="d-flex align-items-center mb-2">
+      <input
+        type="search"
+        id="bibsearch"
+        name="q"
+        spellcheck="false"
+        autocomplete="off"
+        class="search bibsearch-form-input mb-0 flex-grow-1"
+        placeholder="e.g. hyperspectral Haut 2026"
+        aria-describedby="bibsearch-status"
+        aria-controls="publication-list"
+      >
+      <button type="reset" class="btn btn-sm btn-outline-secondary ml-2 flex-shrink-0 text-nowrap">Clear</button>
+    </div>
+    <p id="bibsearch-status" role="status" aria-live="polite" aria-atomic="true"></p>
+    <p id="bibsearch-empty" hidden>No publications match your search. Try a different title, author, or year.</p>
+  </form>
 {% endif %}

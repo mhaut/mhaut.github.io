@@ -8,10 +8,9 @@ nav_order: 4
 ---
 
 <div style="margin-bottom: 2rem; padding: 1.2rem; border-left: 4px solid var(--global-theme-color); background: var(--global-bg-color); border-radius: 0 8px 8px 0; line-height: 2;">
-  <strong>3 PhD theses completed</strong> (2 Outstanding Doctoral Awards) + <strong>4 in progress</strong><br>
-  <strong>8 MSc theses</strong><br>
-  <strong>31 BSc theses</strong><br>
-  Total: <strong>42 supervised theses</strong>
+  <strong>42 completed theses and final projects</strong><br>
+  3 PhD theses (2 Outstanding Doctoral Awards), 8 MSc theses and 31 BSc final projects<br>
+  <strong>4 PhD theses in progress</strong>, listed separately below
 </div>
 
 ## PhD Students — In Progress

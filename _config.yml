@@ -9,7 +9,7 @@ last_name: Haut
 # contact_note: >
 #   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Associate Professor at the University of Extremadura. HyperComp Lab.
+  Associate Professor (Profesor Titular de Universidad) at the University of Extremadura. HyperComp Lab.
   Deep Learning · Hyperspectral Imaging · GPU/HPC · Remote Sensing.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -68,7 +68,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -109,10 +109,10 @@ lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -139,17 +139,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -166,15 +156,15 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
     output: true
   projects:
-    output: true
+    output: false
   teachings:
-    output: true
+    output: false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -196,7 +186,36 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  # Preserve the theme examples in the repository without publishing or indexing them.
+  - _posts/
+  - _projects/
+  - _teachings/
+  - _books/
+  - _pages/blog.md
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/repositories.md
+  - _news/announcement_1.md
+  - _news/announcement_2.md
+  - _news/announcement_3.md
+  - _news/drafts/
+  - assets/json/resume.json
+  - assets/jupyter/
+  - assets/pdf/example_pdf.pdf
+  - assets/rendercv/
+  - output/
+  - tmp/
+  - tests/
   - bin/
+  - AGENTS.md
+  - CLAUDE.md
+  - ANALYTICS.md
+  - QUICKSTART.md
+  - SEO.md
+  - TROUBLESHOOTING.md
+  - cv.yml
+  - requirements.txt
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -664,9 +683,7 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+jekyll_get_json: []
 
 jsonresume:
   - basics
