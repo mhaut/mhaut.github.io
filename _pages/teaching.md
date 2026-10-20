@@ -9,7 +9,7 @@ nav_order: 5
 
 <div style="margin-bottom: 2rem; padding: 1.2rem; border-left: 4px solid var(--global-theme-color); background: var(--global-bg-color); border-radius: 0 8px 8px 0; line-height: 2;">
   <strong>Teaching since 2017</strong><br>
-  <strong>11 courses and final-project modules</strong> at undergraduate and master level<br>
+  <strong>12 courses and final-project modules</strong> at undergraduate and master level<br>
   <strong>2 universities:</strong> University of Extremadura &amp; UNED<br>
   <strong>2 teaching innovation groups</strong> (coordinator of ELEVATE)
 </div>
@@ -18,11 +18,17 @@ nav_order: 5
 
 ### 2026–2027 · University of Extremadura
 
-Current teaching in the BSc in Computer Engineering. The links below open the official course syllabi; ECTS indicate course credits.
+The links below open the official course syllabi; ECTS indicate course credits.
+
+#### BSc in Computer Engineering · GII Ingeniería de Computadores
 
 - **[Arquitecturas Especializadas](https://epcc.unex.es/wp-content/uploads/sites/16/2026/07/plan1627-501296-2026-27.pdf)** — 6 ECTS — 4th year, first semester — Course coordinator
 - **[Sistemas Multimedia](https://epcc.unex.es/wp-content/uploads/sites/16/2026/07/plan1627-501299-2026-27.pdf)** — 6 ECTS — 4th year, second semester — Course coordinator
 - **[Computación Paralela](https://epcc.unex.es/wp-content/uploads/sites/16/2026/07/plan1627-501304-2026-27.pdf)** — 6 ECTS — 4th year, second semester — Course coordinator
+
+#### MSc in Computer Engineering · Máster en Ingeniería Informática
+
+- **[Computación Paralela](https://epcc.unex.es/wp-content/uploads/sites/16/2026/10/plan1650-402422-2026-27.pdf)** — 4.5 ECTS — 1st year, first semester — Course coordinator
 
 [Office hours and staff profile at the University of Extremadura](https://epcc.unex.es/centro/pdi/?personid=d72da0e23d9fc443b71a4db71e963832).
 
