@@ -28,7 +28,7 @@ The links below open the official course syllabi; ECTS indicate course credits.
 
 #### MSc in Computer Engineering · Máster en Ingeniería Informática
 
-- **[Computación Paralela](https://epcc.unex.es/wp-content/uploads/sites/16/2026/10/plan1650-402422-2026-27.pdf)** — 3 ECTS — 1st year, first semester — Course coordinator. **Teaching allocation:** 4.5 teaching credits (two laboratory groups).
+- **[Computación Paralela](https://epcc.unex.es/wp-content/uploads/sites/16/2026/10/plan1650-402422-2026-27.pdf)** — 3 ECTS — 1st year, first semester — Course coordinator. **Teaching allocation:** 4.5 teaching credits.
 
 [Office hours and staff profile at the University of Extremadura](https://epcc.unex.es/centro/pdi/?personid=d72da0e23d9fc443b71a4db71e963832).
 
